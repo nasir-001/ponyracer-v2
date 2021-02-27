@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2>{{ name }}</h2>
+    <p>{{ startInstant }}</p>
     <ul v-for="pony of ponies" :key="pony.id">
       <li>{{ pony.name }}</li>
     </ul>
@@ -9,7 +10,8 @@
 
 <script lang="ts">
 import { RaceModel } from '@/models/RaceModel';
-import { defineComponent, PropType, toRefs } from 'vue';
+import { defineComponent, PropType, toRefs, computed } from 'vue';
+import fromNow from '@/utils/FromNow';
 
 export default defineComponent({
   name: 'Race',
@@ -22,7 +24,9 @@ export default defineComponent({
   },
 
   setup(props) {
-    return { ...toRefs(props.raceModel) };
+    const startInstant = computed(() => fromNow(props.raceModel.startInstant));
+
+    return { ...toRefs(props.raceModel), startInstant };
   }
 });
 </script>
