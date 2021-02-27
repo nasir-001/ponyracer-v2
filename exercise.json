@@ -1,1 +1,1 @@
-{"pack":"8","id":0,"title":"Getting started","specs":[{"name":"tests/e2e/specs/home.spec.js","hash":"93f50cf79b3af6e23fd5d363429a27835fe8a925"},{"name":"tests/unit/App.spec.ts","hash":"3dbba40d658f10c31bc4ee5da7c55cb7ee90f62c"}]}
+{"pack":"8","id":2,"title":"List of races","specs":[{"name":"tests/e2e/specs/home.spec.js","hash":"b4e5c2bea55693b1a5f544d485ec24e80398d69c"},{"name":"tests/unit/App.spec.ts","hash":"77031371c3d76feecfd1ca96e9d118779561e728"},{"name":"tests/unit/views/Races.spec.ts","hash":"a13c05182d33e2039937903178b8af8243436903"}]}

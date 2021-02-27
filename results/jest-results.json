@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 1,
-  "numPassedTests": 1,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 3,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 1,
-  "numTotalTests": 1,
+  "numTotalTestSuites": 2,
+  "numTotalTests": 3,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1613156756083,
+  "startTime": 1614441377421,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,45 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1613156867304,
-        "start": 1613156811924
+        "end": 1614441387030,
+        "start": 1614441382092
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Navbar.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 79,
+          "failureMessages": [],
+          "fullName": "Navbar.vue should toggle the class on click",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should toggle the class on click"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614441387064,
+        "start": 1614441382058
       },
       "snapshot": {
         "added": 0,
@@ -61,6 +98,18 @@
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "renders a title"
+        },
+        {
+          "ancestorTitles": [
+            "App.vue"
+          ],
+          "duration": 16,
+          "failureMessages": [],
+          "fullName": "App.vue renders the navbar",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "renders the navbar"
         }
       ],
       "skipped": false,
@@ -69,26 +118,163 @@
   ],
   "wasInterrupted": false,
   "coverageMap": {
-    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\App.vue": {
-      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\App.vue",
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\components\\Navbar.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\components\\Navbar.vue",
       "statementMap": {
         "0": {
           "start": {
-            "line": 8,
+            "line": 18,
             "column": 0
           },
           "end": {
-            "line": 8,
+            "line": 18,
             "column": null
           }
         },
         "1": {
           "start": {
-            "line": 10,
+            "line": 20,
             "column": 0
           },
           "end": {
-            "line": 10,
+            "line": 20,
+            "column": 15
+          }
+        },
+        "2": {
+          "start": {
+            "line": 24,
+            "column": 28
+          },
+          "end": {
+            "line": 24,
+            "column": 41
+          }
+        },
+        "3": {
+          "start": {
+            "line": 26,
+            "column": 25
+          },
+          "end": {
+            "line": 28,
+            "column": null
+          }
+        },
+        "4": {
+          "start": {
+            "line": 27,
+            "column": 6
+          },
+          "end": {
+            "line": 27,
+            "column": 21
+          }
+        },
+        "5": {
+          "start": {
+            "line": 30,
+            "column": 4
+          },
+          "end": {
+            "line": 30,
+            "column": 11
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 23,
+              "column": 2
+            },
+            "end": {
+              "line": 23,
+              "column": 7
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 23,
+              "column": 2
+            },
+            "end": {
+              "line": 31,
+              "column": null
+            }
+          }
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 26,
+              "column": 25
+            },
+            "end": {
+              "line": 26,
+              "column": null
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 25
+            },
+            "end": {
+              "line": 28,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 2,
+        "1": 2,
+        "2": 3,
+        "3": 3,
+        "4": 1,
+        "5": 3
+      },
+      "f": {
+        "0": 3,
+        "1": 1
+      },
+      "b": {}
+    },
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\App.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\App.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 11,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 12,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
             "column": 15
           }
         }
@@ -97,7 +283,8 @@
       "branchMap": {},
       "s": {
         "0": 1,
-        "1": 1
+        "1": 1,
+        "2": 1
       },
       "f": {},
       "b": {}
