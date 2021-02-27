@@ -1,6 +1,6 @@
 <template>
   <div class="container" style="margin-top: 70px">
-    <h1>Ponyracer</h1>
+    <h1>Ponyracers</h1>
   </div>
 </template>
 
