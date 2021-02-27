@@ -2,9 +2,11 @@
   <div>
     <h2>{{ name }}</h2>
     <p>{{ startInstant }}</p>
-    <ul v-for="pony of ponies" :key="pony.id">
-      <li>{{ pony.name }}</li>
-    </ul>
+    <div class="row">
+      <div class="col" v-for="pony of ponies" :key="pony.id">
+        <pony :ponyModel="pony"></pony>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -12,9 +14,13 @@
 import { RaceModel } from '@/models/RaceModel';
 import { defineComponent, PropType, toRefs, computed } from 'vue';
 import fromNow from '@/utils/FromNow';
+import Pony from '@/components/Pony.vue';
 
 export default defineComponent({
   name: 'Race',
+  components: {
+    Pony
+  },
 
   props: {
     raceModel: {

@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for src/Views/Races.vue</title>
+    <title>Code coverage report for src/components/Pony.vue</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="..\..\prettify.css" />
     <link rel="stylesheet" href="..\..\base.css" />
@@ -18,13 +18,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="..\..\index.html">All files</a> / <a href="index.html">src/Views</a> Races.vue</h1>
+        <h1><a href="..\..\index.html">All files</a> / <a href="index.html">src/components</a> Pony.vue</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -38,14 +38,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>3/3</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>5/5</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
@@ -104,23 +104,17 @@
 <a name='L46'></a><a href='#L46'>46</a>
 <a name='L47'></a><a href='#L47'>47</a>
 <a name='L48'></a><a href='#L48'>48</a>
-<a name='L49'></a><a href='#L49'>49</a>
-<a name='L50'></a><a href='#L50'>50</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L49'></a><a href='#L49'>49</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
@@ -135,6 +129,14 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">47x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">47x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -147,62 +149,57 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
-  &lt;div v-for="race of races" :key="race"&gt;
-    &lt;race :raceModel="race"&gt;&lt;/race&gt;
+  &lt;div @click="clicked()"&gt;
+    &lt;figure&gt;
+      &lt;img :src="ponyImageUrl" :alt="name" /&gt;
+      &lt;figcaption&gt;{{ name }}&lt;/figcaption&gt;
+    &lt;/figure&gt;
   &lt;/div&gt;
 &lt;/template&gt;
 &nbsp;
 &lt;script lang="ts"&gt;
-import { defineComponent, ref } from 'vue';
-import { RaceModel } from '@/models/RaceModel';
-import Race from '@/components/Race.vue';
+import { computed, defineComponent, PropType, toRefs } from 'vue';
+import { PonyModel } from '@/models/PonyModel';
 &nbsp;
 export default defineComponent({
-  name: 'Races',
-  components: {
-    Race
+  name: 'Pony',
+&nbsp;
+  props: {
+    ponyModel: {
+      type: Object as PropType&lt;PonyModel&gt;,
+      required: true
+    }
   },
 &nbsp;
-  setup() {
-    const races = ref&lt;Array&lt;RaceModel&gt;&gt;([
-      {
-        id: 12,
-        name: 'Paris',
-        ponies: [
-          { id: 1, name: 'Gentle Pie', color: 'YELLOW' },
-          { id: 2, name: 'Big Soda', color: 'ORANGE' },
-          { id: 3, name: 'Gentle Bottle', color: 'PURPLE' },
-          { id: 4, name: 'Superb Whiskey', color: 'GREEN' },
-          { id: 5, name: 'Fast Rainbow', color: 'BLUE' }
-        ],
-        startInstant: '2020-02-18T08:02:00Z'
-      },
-      {
-        id: 13,
-        name: 'Tokyo',
-        ponies: [
-          { id: 6, name: 'Fast Rainbow', color: 'BLUE' },
-          { id: 7, name: 'Gentle Castle', color: 'GREEN' },
-          { id: 8, name: 'Awesome Rock', color: 'PURPLE' },
-          { id: 9, name: 'Little Rainbow', color: 'YELLOW' },
-          { id: 10, name: 'Great Soda', color: 'ORANGE' }
-        ],
-        startInstant: '2020-02-18T08:03:00Z'
-      }
-    ]);
+  emits: ['ponySelected'],
 &nbsp;
-    return { races };
+  setup(props, { emit }) {
+    const ponyImageUrl = computed(() =&gt; `/images/pony-${props.ponyModel.color.toLowerCase()}.gif`);
+&nbsp;
+    const clicked = () =&gt; {
+      emit('ponySelected');
+    };
+&nbsp;
+    return { ponyImageUrl, ...toRefs(props.ponyModel), clicked };
   }
 });
 &lt;/script&gt;
+&nbsp;
+&lt;style scoped&gt;
+figure {
+  margin: 3px;
+  padding: 3px;
+  font-size: 12px;
+}
+&nbsp;
+img {
+  height: 50px;
+}
+&lt;/style&gt;
 &nbsp;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -210,7 +207,7 @@ export default defineComponent({
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Sat Feb 27 2021 21:49:22 GMT+0100 (West Africa Standard Time)
+                at Sat Feb 27 2021 21:49:21 GMT+0100 (West Africa Standard Time)
             </div>
         </div>
         <script src="..\..\prettify.js"></script>
