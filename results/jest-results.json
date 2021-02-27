@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 3,
-  "numPassedTests": 5,
+  "numPassedTestSuites": 4,
+  "numPassedTests": 6,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 3,
-  "numTotalTests": 5,
+  "numTotalTestSuites": 4,
+  "numTotalTests": 6,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1614442337580,
+  "startTime": 1614454074963,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614442360268,
-        "start": 1614442350546
+        "end": 1614454129110,
+        "start": 1614454104741
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 112,
+          "duration": 150,
           "failureMessages": [],
           "fullName": "Navbar.vue should toggle the class on click",
           "location": null,
@@ -73,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614442368655,
-        "start": 1614442350547
+        "end": 1614454141190,
+        "start": 1614454104740
       },
       "snapshot": {
         "added": 0,
@@ -85,19 +85,19 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\views\\Races.spec.ts",
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Race.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
-            "Races.vue"
+            "Race.vue"
           ],
-          "duration": 51,
+          "duration": 185,
           "failureMessages": [],
-          "fullName": "Races.vue should display every race name in a title",
+          "fullName": "Race.vue should display a race name and its ponies",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "should display every race name in a title"
+          "title": "should display a race name and its ponies"
         }
       ],
       "skipped": false,
@@ -110,8 +110,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614442368833,
-        "start": 1614442350547
+        "end": 1614454141818,
+        "start": 1614454104741
       },
       "snapshot": {
         "added": 0,
@@ -128,7 +128,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 60,
+          "duration": 96,
           "failureMessages": [],
           "fullName": "App.vue renders a title",
           "location": null,
@@ -140,7 +140,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 10,
+          "duration": 17,
           "failureMessages": [],
           "fullName": "App.vue renders the navbar",
           "location": null,
@@ -152,13 +152,50 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 8,
+          "duration": 14,
           "failureMessages": [],
           "fullName": "App.vue renders the races list",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "renders the races list"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614454142192,
+        "start": 1614454129754
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Races.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Races.vue"
+          ],
+          "duration": 31,
+          "failureMessages": [],
+          "fullName": "Races.vue should display every race name in a title",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display every race name in a title"
         }
       ],
       "skipped": false,
@@ -294,47 +331,37 @@
       },
       "b": {}
     },
-    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\views\\Races.vue": {
-      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\views\\Races.vue",
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\components\\Race.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\components\\Race.vue",
       "statementMap": {
         "0": {
           "start": {
-            "line": 8,
+            "line": 12,
             "column": 0
           },
           "end": {
-            "line": 8,
+            "line": 12,
             "column": null
           }
         },
         "1": {
           "start": {
-            "line": 11,
+            "line": 14,
             "column": 0
           },
           "end": {
-            "line": 11,
+            "line": 14,
             "column": 15
           }
         },
         "2": {
           "start": {
-            "line": 15,
-            "column": 18
-          },
-          "end": {
-            "line": 15,
-            "column": 40
-          }
-        },
-        "3": {
-          "start": {
-            "line": 17,
+            "line": 25,
             "column": 4
           },
           "end": {
-            "line": 17,
-            "column": 11
+            "line": 25,
+            "column": 16
           }
         }
       },
@@ -343,21 +370,21 @@
           "name": "(anonymous_0)",
           "decl": {
             "start": {
-              "line": 14,
-              "column": 2
+              "line": 24,
+              "column": 7
             },
             "end": {
-              "line": 14,
-              "column": 7
+              "line": 24,
+              "column": 8
             }
           },
           "loc": {
             "start": {
-              "line": 14,
-              "column": 2
+              "line": 24,
+              "column": 13
             },
             "end": {
-              "line": 18,
+              "line": 26,
               "column": null
             }
           }
@@ -365,13 +392,12 @@
       },
       "branchMap": {},
       "s": {
-        "0": 2,
-        "1": 2,
-        "2": 4,
-        "3": 4
+        "0": 3,
+        "1": 3,
+        "2": 9
       },
       "f": {
-        "0": 4
+        "0": 9
       },
       "b": {}
     },
@@ -428,6 +454,98 @@
         "3": 1
       },
       "f": {},
+      "b": {}
+    },
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Races.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Races.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 8,
+            "column": 0
+          },
+          "end": {
+            "line": 8,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 10,
+            "column": 0
+          },
+          "end": {
+            "line": 10,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 12,
+            "column": 15
+          }
+        },
+        "3": {
+          "start": {
+            "line": 19,
+            "column": 18
+          },
+          "end": {
+            "line": 19,
+            "column": 40
+          }
+        },
+        "4": {
+          "start": {
+            "line": 46,
+            "column": 4
+          },
+          "end": {
+            "line": 46,
+            "column": 11
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 18,
+              "column": 2
+            },
+            "end": {
+              "line": 18,
+              "column": 7
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 2
+            },
+            "end": {
+              "line": 47,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 4,
+        "4": 4
+      },
+      "f": {
+        "0": 4
+      },
       "b": {}
     }
   }
