@@ -1,16 +1,13 @@
 <template>
-  <div>
-    <navbar></navbar>
-    <div class="container" style="margin-top: 70px">
-      <h1>Ponyracer</h1>
+  <navbar></navbar>
+  <div class="container" style="margin-top: 70px">
+    <router-view v-slot="{ Component }">
       <alert v-if="errorMessage" :variant="'danger'">An error occurred while loading.</alert>
-      <suspense v-else>
-        <div>
-          <races></races>
-        </div>
+      <suspense timeout="100">
+        <component :is="Component" />
         <template #fallback>Loading...</template>
       </suspense>
-    </div>
+    </router-view>
   </div>
 </template>
 
