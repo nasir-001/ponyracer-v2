@@ -1,4 +1,8 @@
 <template>
+  <!-- <div v-if="(error = true)" class="alert alert-danger">
+    An error occurred while loading.
+    <button @click="error = false" type="button" class="close" aria-label="Close"><span aria-hidden="true">&#215;</span></button>
+  </div> -->
   <div v-for="race of races" :key="race">
     <race :raceModel="race"></race>
   </div>
@@ -19,10 +23,15 @@ export default defineComponent({
   setup() {
     const race = useRaceService();
     const races = ref<Array<RaceModel | null>>();
+    const error = ref<boolean>(false);
 
-    onMounted(async () => {
-      races.value = await race.list();
-    });
+    try {
+      onMounted(async () => {
+        races.value = await race.list();
+      });
+    } catch (err) {
+      error.value = true;
+    }
 
     return { races };
   }
