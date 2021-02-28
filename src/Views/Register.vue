@@ -1,122 +1,83 @@
 <template>
   <div class="container">
-    <alert v-if="registrationFailed">An error occured while registration</alert>
-    <form @submit.prevent="register()">
-      <div class="form-group">
-        <label for="login">Login</label>
-        <input
-          :class="{ 'is-invalid': errors.login && dirty.login }"
-          @change="emitLogin()"
-          v-model="login"
-          type="text"
-          name="login"
-          id="login"
-          class="form-control"
-        />
-        <div class="invalid-feedback d-block" :class="{ 'text-danger': errors.login && dirty.login }" v-if="errors.login && dirty.login">
-          The login is required
+    <Alert :variant="danger" v-if="registrationFailed" class="mt-4" @dismissed="registrationFailed = false" dismissible
+      >Nope, try again</Alert
+    >
+    <Form @submit="register($event)" v-slot="{ meta: formMeta }" :initialValues="initialValues">
+      <Field name="login" rules="required" v-slot="{ field, meta }">
+        <div class="form-group">
+          <label :class="{ 'text-danger': meta.dirty && !meta.valid }" for="login-input">Login</label>
+          <input :class="{ 'is-invalid': meta.dirty && !meta.valid }" id="login-input" class="form-control" v-bind="field" />
+          <ErrorMessage name="login" class="invalid-feedback" />
         </div>
-      </div>
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input
-          :class="{ 'is-invalid': errors.password && dirty.password }"
-          @change="emitPassword"
-          v-model="password"
-          type="password"
-          name="password"
-          id="password"
-          class="form-control"
-        />
-        <div :class="{ 'text-danger': errors.password && dirty.password }" v-if="errors.password && dirty.password">
-          The password is required
+      </Field>
+      <Field name="password" rules="required" v-slot="{ field, meta }">
+        <div class="form-group">
+          <label :class="{ 'text-danger': meta.dirty && !meta.valid }" for="password-input">Password</label>
+          <input
+            :class="{ 'is-invalid': meta.dirty && !meta.valid }"
+            type="password"
+            id="password-input"
+            class="form-control"
+            v-bind="field"
+          />
+          <ErrorMessage name="password" class="invalid-feedback" />
         </div>
-      </div>
-      <div class="form-group">
-        <label for="birthYear">Birth Year</label>
-        <input
-          :class="{ 'is-invalid': errors.birthYear && dirty.birthYear }"
-          @change="emitBirthYear()"
-          v-model.number="birthYear"
-          type="number"
-          name="birthYear"
-          id="birthYear"
-          class="form-control"
-        />
-        <div :class="{ 'text-danger': errors.birthYear && dirty.birthYear }" v-if="errors.birthYear && dirty.birthYear">
-          The birth year is required
+      </Field>
+      <Field name="birthYear" rules="required" v-slot="{ field, meta }">
+        <div class="form-group">
+          <label :class="{ 'text-danger': meta.dirty && !meta.valid }" for="birthYear-input">Birth Year</label>
+          <input
+            :class="{ 'is-invalid': meta.dirty && !meta.valid }"
+            type="birthYear"
+            id="birthYear-input"
+            class="form-control"
+            v-bind="field"
+          />
+          <ErrorMessage name="birthYear" class="invalid-feedback" />
         </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Let's go!</button>
-    </form>
+      </Field>
+      <button class="btn btn-primary" :class="{ disabled: !formMeta.valid }">Let's go!</button>
+    </Form>
   </div>
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, reactive, ref, toRefs } from 'vue';
+import { defineComponent, ref } from 'vue';
 import { UserModel } from '@/models/UserModel';
 import { useUserService } from '@/composables/UserService';
 import { RegistrationResponse } from '@/models/RegistrationResponse';
 import Alert from '@/components/Alert.vue';
+import { Form, Field } from 'vee-validate';
+import router from '@/router';
 
 export default defineComponent({
   name: 'Register',
 
-  components: { Alert },
+  components: {
+    Alert,
+    Form,
+    Field
+  },
 
   setup() {
     const userCredentials = ref<RegistrationResponse | null>(null);
     const userService = useUserService();
     const registrationFailed = ref<boolean>(false);
+    const initialValues = { birthYear: new Date().getFullYear() - 18 };
 
-    const userModel = reactive({
-      login: '',
-      password: '',
-      birthYear: new Date().getFullYear() - 18
-    });
-
-    const errors = computed(() => {
-      const errors: Partial<Record<keyof UserModel, boolean>> = {};
-
-      if (!userModel.login) {
-        errors.login = true;
-      }
-      if (!userModel.password) {
-        errors.password = true;
-      }
-      if (!userModel.birthYear) {
-        errors.birthYear = true;
-      }
-      return errors;
-    });
-
-    const dirty = reactive<{ [K in keyof UserModel]: boolean }>({
-      login: false,
-      password: false,
-      birthYear: false
-    });
-
-    const emitLogin = () => {
-      dirty.login = true;
-    };
-
-    const emitPassword = () => {
-      dirty.password = true;
-    };
-
-    const emitBirthYear = () => {
-      dirty.birthYear = true;
-    };
-
-    async function register() {
+    async function register(registrationDetails: UserModel) {
       try {
-        userCredentials.value = await userService.register(userModel);
+        userCredentials.value = await userService.register(registrationDetails);
+        if (userCredentials.value) {
+          router.push({ name: 'home' });
+        }
       } catch (error) {
         registrationFailed.value = true;
       }
-    };
+    }
 
-    return { ...toRefs(userModel), register, errors, dirty, emitLogin, emitPassword, emitBirthYear };
+    return { register, registrationFailed, initialValues };
   }
 });
 </script>

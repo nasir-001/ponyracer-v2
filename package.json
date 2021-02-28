@@ -14,10 +14,13 @@
     "postinstall": "npm run format"
   },
   "dependencies": {
+    "@vee-validate/i18n": "4.0.1",
+    "@vee-validate/rules": "4.0.3",
     "axios": "0.21.1",
     "bootstrap": "4.6.0",
     "date-fns": "2.16.1",
     "font-awesome": "4.7.0",
+    "vee-validate": "4.0.4",
     "vue": "3.0.4",
     "vue-router": "4.0.1"
   },

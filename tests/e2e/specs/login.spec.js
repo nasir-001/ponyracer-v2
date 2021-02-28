@@ -13,20 +13,19 @@ function startBackend() {
 
   cy.route({
     method: 'POST',
-    url: 'api/users',
-    response: [user]
-  }).as('registerUser');
+    url: 'api/users/authentication',
+    response: user
+  }).as('authenticateUser');
 }
 
-describe('Register', () => {
+describe('Login', () => {
   beforeEach(() => startBackend());
 
-  it('should display a register page', () => {
-    cy.visit('/register');
+  it('should display a login page', () => {
+    cy.visit('/login');
 
     const loginInput = () => cy.get('input').first();
-    const passwordInput = () => cy.get('input[type=password]').first();
-    const birthYearInput = () => cy.get('input[type=number]');
+    const passwordInput = () => cy.get('input[type=password]');
     const errorMessage = () => cy.get('.invalid-feedback');
 
     cy.get('button').should('be.visible').and('be.disabled');
@@ -39,16 +38,12 @@ describe('Register', () => {
     passwordInput().type('p');
     passwordInput().clear();
     errorMessage().should('be.visible').and('contain', 'The password is required');
+
     passwordInput().type('pa');
     errorMessage().should('not.be.visible');
 
-    birthYearInput().clear();
-    errorMessage().should('be.visible').and('contain', 'The birthYear is required');
-    birthYearInput().type(1986);
-    errorMessage().should('not.be.visible');
-
     cy.get('form > button').click();
-    cy.wait('@registerUser');
+    cy.wait('@authenticateUser');
 
     cy.location('pathname').should('eq', '/');
   });

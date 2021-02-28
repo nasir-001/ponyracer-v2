@@ -5,7 +5,7 @@
     </div>
 
     <div class="mt-4">
-      <router-link class="btn btn-primary" :to="{ name: 'races' }">Races</router-link>
+      <router-link class="btn btn-primary" :to="{ name: 'login' }">Login</router-link>
     </div>
     <div class="mt-4">
       <router-link class="btn btn-primary" :to="{ name: 'register' }">Register</router-link>

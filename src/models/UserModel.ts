@@ -3,3 +3,8 @@ export interface UserModel {
   password: string;
   birthYear: number;
 }
+
+export interface AuthenticateModel {
+  login: string;
+  password: string;
+}
