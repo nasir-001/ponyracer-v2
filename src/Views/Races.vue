@@ -1,8 +1,5 @@
 <template>
-  <!-- <div v-if="(error = true)" class="alert alert-danger">
-    An error occurred while loading.
-    <button @click="error = false" type="button" class="close" aria-label="Close"><span aria-hidden="true">&#215;</span></button>
-  </div> -->
+  <Alert v-if="error" @dismissed="error = false" dismissible :variant="'success'">Races component</Alert>
   <div v-for="race of races" :key="race">
     <race :raceModel="race"></race>
   </div>
@@ -13,11 +10,13 @@ import { defineComponent, onMounted, ref } from 'vue';
 import { RaceModel } from '@/models/RaceModel';
 import Race from '@/components/Race.vue';
 import { useRaceService } from '@/composables/RaceService';
+import Alert from '@/components/Alert.vue';
 
 export default defineComponent({
   name: 'Races',
   components: {
-    Race
+    Race,
+    Alert
   },
 
   setup() {

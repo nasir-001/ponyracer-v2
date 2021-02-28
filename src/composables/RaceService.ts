@@ -1,6 +1,6 @@
 import { RaceModel } from '@/models/RaceModel';
 import axios from 'axios';
-const baseUrl = 'https://ponyracer.ninja-squad.com'
+const baseUrl = 'https://ponyracer.ninja-squad.com';
 
 export function useRaceService() {
   return {
@@ -9,8 +9,7 @@ export function useRaceService() {
         params: { status: 'PENDING' }
       });
 
-      return Promise.resolve(response.data)
+      return Promise.resolve(response.data);
     }
-  }
+  };
 }
-
