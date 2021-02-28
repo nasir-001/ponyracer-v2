@@ -1,14 +1,14 @@
 {
-  "numFailedTestSuites": 1,
-  "numFailedTests": 2,
-  "numPassedTestSuites": 8,
-  "numPassedTests": 17,
+  "numFailedTestSuites": 2,
+  "numFailedTests": 10,
+  "numPassedTestSuites": 9,
+  "numPassedTests": 20,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 9,
-  "numTotalTests": 19,
+  "numTotalTestSuites": 11,
+  "numTotalTests": 30,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,58 +26,9 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1614523431634,
+  "startTime": 1614532711565,
   "success": false,
   "testResults": [
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 2,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614523441611,
-        "start": 1614523435816
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Home.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Home.vue"
-          ],
-          "duration": 95,
-          "failureMessages": [],
-          "fullName": "Home.vue should display every race name in a title",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display every race name in a title"
-        },
-        {
-          "ancestorTitles": [
-            "Home.vue"
-          ],
-          "duration": 12,
-          "failureMessages": [],
-          "fullName": "Home.vue display a link to go the races",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "display a link to go the races"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
     {
       "failureMessage": null,
       "numFailingTests": 0,
@@ -85,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614523445473,
-        "start": 1614523435870
+        "end": 1614532726830,
+        "start": 1614532715743
       },
       "snapshot": {
         "added": 0,
@@ -103,7 +54,7 @@
           "ancestorTitles": [
             "Races.vue"
           ],
-          "duration": 173,
+          "duration": 382,
           "failureMessages": [],
           "fullName": "Races.vue should display every race name in a title",
           "location": null,
@@ -122,8 +73,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614523445944,
-        "start": 1614523435826
+        "end": 1614532727472,
+        "start": 1614532715656
       },
       "snapshot": {
         "added": 0,
@@ -140,7 +91,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 112,
+          "duration": 126,
           "failureMessages": [],
           "fullName": "App.vue renders the navbar",
           "location": null,
@@ -152,7 +103,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 85,
+          "duration": 80,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Loading...\"\u001b[39m\nReceived string:    \u001b[31m\"<nav class=\\\"navbar navbar-expand-md navbar-light bg-light\\\"><div class=\\\"navbar-link\\\"><a class=\\\"navbar-brand text-dark\\\">PonyRacer</a></div><button type=\\\"button\\\" class=\\\"navbar-toggler\\\"><span class=\\\"navbar-toggler-icon\\\"></span></button><div id=\\\"navbar\\\" class=\\\"navbar-collapse collapse\\\"><ul class=\\\"navbar-nav mr-auto\\\"><li class=\\\"nav-link\\\"><a class=\\\"navbar-brand text-dark\\\">Races</a></li></ul></div></nav><div class=\\\"container\\\" style=\\\"margin-top: 70px;\\\"><!--v-if--><!----></div>\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\App.spec.ts:57:28\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
           ],
@@ -166,7 +117,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 39,
+          "duration": 31,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Loading...\"\u001b[39m\nReceived string:    \u001b[31m\"<nav class=\\\"navbar navbar-expand-md navbar-light bg-light\\\"><div class=\\\"navbar-link\\\"><a class=\\\"navbar-brand text-dark\\\">PonyRacer</a></div><button type=\\\"button\\\" class=\\\"navbar-toggler\\\"><span class=\\\"navbar-toggler-icon\\\"></span></button><div id=\\\"navbar\\\" class=\\\"navbar-collapse collapse\\\"><ul class=\\\"navbar-nav mr-auto\\\"><li class=\\\"nav-link\\\"><a class=\\\"navbar-brand text-dark\\\">Races</a></li></ul></div></nav><div class=\\\"container\\\" style=\\\"margin-top: 70px;\\\"><!--v-if-->Hello</div>\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\App.spec.ts:75:28\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
           ],
@@ -187,8 +138,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614523446895,
-        "start": 1614523441741
+        "end": 1614532729531,
+        "start": 1614532727657
       },
       "snapshot": {
         "added": 0,
@@ -205,7 +156,7 @@
           "ancestorTitles": [
             "Race.vue"
           ],
-          "duration": 109,
+          "duration": 62,
           "failureMessages": [],
           "fullName": "Race.vue should display a race name and its ponies",
           "location": null,
@@ -220,12 +171,281 @@
     {
       "failureMessage": null,
       "numFailingTests": 0,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614532732036,
+        "start": 1614532729707
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Navbar.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 80,
+          "failureMessages": [],
+          "fullName": "Navbar.vue should have a `navbarCollapsed` field",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should have a `navbarCollapsed` field"
+        },
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 68,
+          "failureMessages": [],
+          "fullName": "Navbar.vue should have a `toggleNavbar` function",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should have a `toggleNavbar` function"
+        },
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 105,
+          "failureMessages": [],
+          "fullName": "Navbar.vue should toggle the class on click",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should toggle the class on click"
+        },
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 50,
+          "failureMessages": [],
+          "fullName": "Navbar.vue should display a link to the home page",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display a link to the home page"
+        },
+        {
+          "ancestorTitles": [
+            "Navbar.vue"
+          ],
+          "duration": 80,
+          "failureMessages": [],
+          "fullName": "Navbar.vue should display a link to the races page",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display a link to the races page"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614532734100,
+        "start": 1614532732653
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Pony.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Pony.vue"
+          ],
+          "duration": 15,
+          "failureMessages": [],
+          "fullName": "Pony.vue should display an image and a legend",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display an image and a legend"
+        },
+        {
+          "ancestorTitles": [
+            "Pony.vue"
+          ],
+          "duration": 37,
+          "failureMessages": [],
+          "fullName": "Pony.vue should emit an event on click",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should emit an event on click"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614532735338,
+        "start": 1614532734251
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\composables\\RaceService.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "useRaceService"
+          ],
+          "duration": 8,
+          "failureMessages": [],
+          "fullName": "useRaceService should list races",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should list races"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614532736400,
+        "start": 1614532735431
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\utils\\FromNow.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "FromNow"
+          ],
+          "duration": 4,
+          "failureMessages": [],
+          "fullName": "FromNow should transform a date",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should transform a date"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
       "numPassingTests": 3,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614523447228,
-        "start": 1614523445680
+        "end": 1614532737489,
+        "start": 1614532715754
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Home.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 402,
+          "failureMessages": [],
+          "fullName": "Home.vue should display every race name in a title",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display every race name in a title"
+        },
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 48,
+          "failureMessages": [],
+          "fullName": "Home.vue display a link to go the races",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "display a link to go the races"
+        },
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 43,
+          "failureMessages": [],
+          "fullName": "Home.vue display a link to go the register page",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "display a link to go the register page"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614532739454,
+        "start": 1614532736567
       },
       "snapshot": {
         "added": 0,
@@ -242,7 +462,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 68,
+          "duration": 43,
           "failureMessages": [],
           "fullName": "Alert.vue should display the alert content",
           "location": null,
@@ -254,7 +474,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 54,
+          "duration": 20,
           "failureMessages": [],
           "fullName": "Alert.vue should have the correct CSS class",
           "location": null,
@@ -266,7 +486,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 80,
+          "duration": 16,
           "failureMessages": [],
           "fullName": "Alert.vue should be dismissible",
           "location": null,
@@ -285,8 +505,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614523447974,
-        "start": 1614523446263
+        "end": 1614532740536,
+        "start": 1614532737984
       },
       "snapshot": {
         "added": 0,
@@ -297,33 +517,33 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\utils\\FromNow.spec.ts",
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\composables\\UserService.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
-            "FromNow"
+            "useUserService"
           ],
-          "duration": 7,
+          "duration": 11,
           "failureMessages": [],
-          "fullName": "FromNow should transform a date",
+          "fullName": "useUserService should register a user",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "should transform a date"
+          "title": "should register a user"
         }
       ],
       "skipped": false,
       "leaks": false
     },
     {
-      "failureMessage": null,
-      "numFailingTests": 0,
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should have a userModel property\u001b[39m\u001b[22m\n\n    TypeError: Cannot read property 'login' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 31 |\u001b[39m     \u001b[36mconst\u001b[39m userModel \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39mvm\u001b[33m.\u001b[39muserModel\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 32 |\u001b[39m     expect(userModel)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoBeNull()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 33 |\u001b[39m     expect(userModel\u001b[33m.\u001b[39mlogin)\u001b[33m.\u001b[39mtoBe(\u001b[32m''\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                      \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 34 |\u001b[39m     expect(userModel\u001b[33m.\u001b[39mpassword)\u001b[33m.\u001b[39mtoBe(\u001b[32m''\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 35 |\u001b[39m     expect(userModel\u001b[33m.\u001b[39mbirthYear)\u001b[33m.\u001b[39mtoBe(\u001b[36mnew\u001b[39m \u001b[33mDate\u001b[39m()\u001b[33m.\u001b[39mgetFullYear() \u001b[33m-\u001b[39m \u001b[35m18\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 36 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:33:22)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should have an errors computed property\u001b[39m\u001b[22m\n\n    TypeError: Cannot set property 'login' of undefined\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 |\u001b[39m   test(\u001b[32m'should have an errors computed property'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 39 |\u001b[39m     \u001b[36mconst\u001b[39m wrapper \u001b[33m=\u001b[39m registerWrapper()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 40 |\u001b[39m     wrapper\u001b[33m.\u001b[39mvm\u001b[33m.\u001b[39muserModel\u001b[33m.\u001b[39mlogin \u001b[33m=\u001b[39m \u001b[32m'cedric'\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 |\u001b[39m     wrapper\u001b[33m.\u001b[39mvm\u001b[33m.\u001b[39muserModel\u001b[33m.\u001b[39mbirthYear \u001b[33m=\u001b[39m \u001b[35m0\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 |\u001b[39m     \u001b[90m// The component should have a computed property `errors`\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 43 |\u001b[39m     \u001b[36mconst\u001b[39m errors \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39mvm\u001b[33m.\u001b[39merrors\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:40:31)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should update the dirtiness of a field\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 82 |\u001b[39m     wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'input'\u001b[39m)\u001b[33m.\u001b[39mtrigger(\u001b[32m'input'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 83 |\u001b[39m     \u001b[90m// The login field should be dirty after the input event\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 84 |\u001b[39m     expect(dirty\u001b[33m.\u001b[39mlogin)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 85 |\u001b[39m     dirty\u001b[33m.\u001b[39mlogin \u001b[33m=\u001b[39m \u001b[36mfalse\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 86 |\u001b[39m     wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'input'\u001b[39m)\u001b[33m.\u001b[39mtrigger(\u001b[32m'input'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 87 |\u001b[39m     \u001b[90m// The input event listener for the login field should be executed only once by using `@input.once`\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:84:25)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display errors for login\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\n    Expected value: \u001b[32m\"text-danger\"\u001b[39m\n    Received array: \u001b[31m[]\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 125 |\u001b[39m     expect(loginInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 126 |\u001b[39m     \u001b[90m// The login label should have the CSS class text-danger when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 127 |\u001b[39m     expect(label\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'text-danger'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 128 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 129 |\u001b[39m     \u001b[36mawait\u001b[39m loginInput\u001b[33m.\u001b[39msetValue(\u001b[32m'cedric'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 130 |\u001b[39m     \u001b[90m// The login field error should not be displayed\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:127:29\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display errors for password\u001b[39m\u001b[22m\n\n    Unable to get .invalid-feedback within: <div class=\"container\"><!--v-if--><form><div class=\"form-group\"><label for=\"login\">Login</label><input class=\"form-control\" type=\"text\" name=\"login\" id=\"login\"><!--v-if--></div><div class=\"form-group\"><label for=\"password\">Password</label><input class=\"is-invalid form-control\" type=\"password\" name=\"password\" id=\"password\"><div class=\"text-danger\"> The password is required </div></div><div class=\"form-group\"><label for=\"birthYear\">Birth Year</label><input class=\"form-control\" type=\"number\" name=\"birthYear\" id=\"birthYear\"><!--v-if--></div><button type=\"submit\" class=\"btn btn-primary\">Let's go!</button></form></div>\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 153 |\u001b[39m     \u001b[36mawait\u001b[39m passwordInput\u001b[33m.\u001b[39msetValue(\u001b[32m''\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 154 |\u001b[39m     \u001b[90m// The password field should display an error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 155 |\u001b[39m     \u001b[36mconst\u001b[39m passwordError \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'.invalid-feedback'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 156 |\u001b[39m     expect(passwordError\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m'The password is required'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 157 |\u001b[39m     \u001b[90m// The password input should have the CSS class is-invalid when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 158 |\u001b[39m     expect(passwordInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat VueWrapper.Object.<anonymous>.VueWrapper.get (\u001b[2mnode_modules/@vue/test-utils/dist/vue-test-utils.cjs.js\u001b[2m:1981:15)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:155:35\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display errors for birthYear\u001b[39m\u001b[22m\n\n    Unable to get .invalid-feedback within: <div class=\"container\"><!--v-if--><form><div class=\"form-group\"><label for=\"login\">Login</label><input class=\"form-control\" type=\"text\" name=\"login\" id=\"login\"><!--v-if--></div><div class=\"form-group\"><label for=\"password\">Password</label><input class=\"form-control\" type=\"password\" name=\"password\" id=\"password\"><!--v-if--></div><div class=\"form-group\"><label for=\"birthYear\">Birth Year</label><input class=\"is-invalid form-control\" type=\"number\" name=\"birthYear\" id=\"birthYear\"><div class=\"text-danger\"> The birth year is required </div></div><button type=\"submit\" class=\"btn btn-primary\">Let's go!</button></form></div>\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 186 |\u001b[39m     \u001b[36mawait\u001b[39m birthYearInput\u001b[33m.\u001b[39msetValue(\u001b[32m''\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 187 |\u001b[39m     \u001b[90m// The birthYear field should display an error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 188 |\u001b[39m     \u001b[36mconst\u001b[39m birthYearError \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'.invalid-feedback'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 189 |\u001b[39m     expect(birthYearError\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m'The birth year is required'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 190 |\u001b[39m     \u001b[90m// The birthYear input should have the CSS class is-invalid when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 191 |\u001b[39m     expect(birthYearInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat VueWrapper.Object.<anonymous>.VueWrapper.get (\u001b[2mnode_modules/@vue/test-utils/dist/vue-test-utils.cjs.js\u001b[2m:1981:15)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:188:36\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should call the register function on submit\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\n    Expected number of calls: >= \u001b[32m1\u001b[39m\n    Received number of calls:    \u001b[31m0\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 217 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 218 |\u001b[39m     \u001b[90m// It should redirect to home after a submission success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 219 |\u001b[39m     expect(mockRouter\u001b[33m.\u001b[39mpush)\u001b[33m.\u001b[39mtoHaveBeenCalled()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 220 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 221 |\u001b[39m     \u001b[36mconst\u001b[39m alert \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39mfindComponent(\u001b[33mAlert\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 222 |\u001b[39m     \u001b[90m// An alert should not be displayed on registration success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:219:29\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display an alert on submission failure\u001b[39m\u001b[22m\n\n    Unable to get component with name Alert within: <div class=\"container\"><!--v-if--><form><div class=\"form-group\"><label for=\"login\">Login</label><input class=\"form-control\" type=\"text\" name=\"login\" id=\"login\"><!--v-if--></div><div class=\"form-group\"><label for=\"password\">Password</label><input class=\"form-control\" type=\"password\" name=\"password\" id=\"password\"><!--v-if--></div><div class=\"form-group\"><label for=\"birthYear\">Birth Year</label><input class=\"form-control\" type=\"number\" name=\"birthYear\" id=\"birthYear\"><!--v-if--></div><button type=\"submit\" class=\"btn btn-primary\">Let's go!</button></form></div>\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 239 |\u001b[39m     expect(mockRouter\u001b[33m.\u001b[39mpush)\u001b[33m.\u001b[39mnot\u001b[33m.\u001b[39mtoHaveBeenCalled()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 240 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 241 |\u001b[39m     \u001b[36mconst\u001b[39m alert \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39mgetComponent(\u001b[33mAlert\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                           \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 242 |\u001b[39m     \u001b[90m// An alert should be displayed on registration failure\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 243 |\u001b[39m     expect(alert\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m'Try again with another login'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 244 |\u001b[39m     expect(alert\u001b[33m.\u001b[39mprops()\u001b[33m.\u001b[39mvariant)\u001b[33m.\u001b[39mtoBe(\u001b[32m'danger'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat VueWrapper.Object.<anonymous>.VueWrapper.getComponent (\u001b[2mnode_modules/@vue/test-utils/dist/vue-test-utils.cjs.js\u001b[2m:2022:15)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:241:27\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n",
+      "numFailingTests": 8,
       "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614523448963,
-        "start": 1614523447301
+        "end": 1614532742306,
+        "start": 1614532727218
       },
       "snapshot": {
         "added": 0,
@@ -334,153 +554,131 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\composables\\RaceService.spec.ts",
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
-            "useRaceService"
+            "Register.vue"
           ],
-          "duration": 42,
-          "failureMessages": [],
-          "fullName": "useRaceService should list races",
+          "duration": 461,
+          "failureMessages": [
+            "TypeError: Cannot read property 'login' of undefined\n    at Object.<anonymous> (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:33:22)\n    at Object.asyncJestTest (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:102:37)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:26:19)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:73:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "Register.vue should have a userModel property",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should list races"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 2,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614523449181,
-        "start": 1614523447637
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Pony.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Pony.vue"
-          ],
-          "duration": 56,
-          "failureMessages": [],
-          "fullName": "Pony.vue should display an image and a legend",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display an image and a legend"
+          "status": "failed",
+          "title": "should have a userModel property"
         },
         {
           "ancestorTitles": [
-            "Pony.vue"
+            "Register.vue"
           ],
-          "duration": 41,
-          "failureMessages": [],
-          "fullName": "Pony.vue should emit an event on click",
+          "duration": 10,
+          "failureMessages": [
+            "TypeError: Cannot set property 'login' of undefined\n    at Object.<anonymous> (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:40:31)\n    at Object.asyncJestTest (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:102:37)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:26:19)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:73:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "Register.vue should have an errors computed property",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should emit an event on click"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 5,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614523450629,
-        "start": 1614523448176
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Navbar.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Navbar.vue"
-          ],
-          "duration": 72,
-          "failureMessages": [],
-          "fullName": "Navbar.vue should have a `navbarCollapsed` field",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should have a `navbarCollapsed` field"
+          "status": "failed",
+          "title": "should have an errors computed property"
         },
         {
           "ancestorTitles": [
-            "Navbar.vue"
+            "Register.vue"
           ],
-          "duration": 45,
+          "duration": 17,
           "failureMessages": [],
-          "fullName": "Navbar.vue should have a `toggleNavbar` function",
+          "fullName": "Register.vue should display a form",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "should have a `toggleNavbar` function"
+          "title": "should display a form"
         },
         {
           "ancestorTitles": [
-            "Navbar.vue"
+            "Register.vue"
           ],
-          "duration": 76,
-          "failureMessages": [],
-          "fullName": "Navbar.vue should toggle the class on click",
+          "duration": 15,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Object.<anonymous> (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:84:25)\n    at Object.asyncJestTest (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\jasmineAsyncInstall.js:102:37)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:43:12\n    at new Promise (<anonymous>)\n    at mapper (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:26:19)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\jest-jasmine2\\build\\queueRunner.js:73:41\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "Register.vue should update the dirtiness of a field",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should toggle the class on click"
+          "status": "failed",
+          "title": "should update the dirtiness of a field"
         },
         {
           "ancestorTitles": [
-            "Navbar.vue"
+            "Register.vue"
           ],
-          "duration": 46,
-          "failureMessages": [],
-          "fullName": "Navbar.vue should display a link to the home page",
+          "duration": 34,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected value: \u001b[32m\"text-danger\"\u001b[39m\nReceived array: \u001b[31m[]\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:127:29\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "Register.vue should display errors for login",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display a link to the home page"
+          "status": "failed",
+          "title": "should display errors for login"
         },
         {
           "ancestorTitles": [
-            "Navbar.vue"
+            "Register.vue"
           ],
-          "duration": 38,
-          "failureMessages": [],
-          "fullName": "Navbar.vue should display a link to the races page",
+          "duration": 19,
+          "failureMessages": [
+            "Error: Unable to get .invalid-feedback within: <div class=\"container\"><!--v-if--><form><div class=\"form-group\"><label for=\"login\">Login</label><input class=\"form-control\" type=\"text\" name=\"login\" id=\"login\"><!--v-if--></div><div class=\"form-group\"><label for=\"password\">Password</label><input class=\"is-invalid form-control\" type=\"password\" name=\"password\" id=\"password\"><div class=\"text-danger\"> The password is required </div></div><div class=\"form-group\"><label for=\"birthYear\">Birth Year</label><input class=\"form-control\" type=\"number\" name=\"birthYear\" id=\"birthYear\"><!--v-if--></div><button type=\"submit\" class=\"btn btn-primary\">Let's go!</button></form></div>\n    at VueWrapper.Object.<anonymous>.VueWrapper.get (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:1981:15)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:155:35\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "Register.vue should display errors for password",
           "location": null,
           "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display a link to the races page"
+          "status": "failed",
+          "title": "should display errors for password"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 23,
+          "failureMessages": [
+            "Error: Unable to get .invalid-feedback within: <div class=\"container\"><!--v-if--><form><div class=\"form-group\"><label for=\"login\">Login</label><input class=\"form-control\" type=\"text\" name=\"login\" id=\"login\"><!--v-if--></div><div class=\"form-group\"><label for=\"password\">Password</label><input class=\"form-control\" type=\"password\" name=\"password\" id=\"password\"><!--v-if--></div><div class=\"form-group\"><label for=\"birthYear\">Birth Year</label><input class=\"is-invalid form-control\" type=\"number\" name=\"birthYear\" id=\"birthYear\"><div class=\"text-danger\"> The birth year is required </div></div><button type=\"submit\" class=\"btn btn-primary\">Let's go!</button></form></div>\n    at VueWrapper.Object.<anonymous>.VueWrapper.get (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:1981:15)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:188:36\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+          ],
+          "fullName": "Register.vue should display errors for birthYear",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should display errors for birthYear"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 29,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\nExpected number of calls: >= \u001b[32m1\u001b[39m\nReceived number of calls:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:219:29\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
+          ],
+          "fullName": "Register.vue should call the register function on submit",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should call the register function on submit"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 16,
+          "failureMessages": [
+            "Error: Unable to get component with name Alert within: <div class=\"container\"><!--v-if--><form><div class=\"form-group\"><label for=\"login\">Login</label><input class=\"form-control\" type=\"text\" name=\"login\" id=\"login\"><!--v-if--></div><div class=\"form-group\"><label for=\"password\">Password</label><input class=\"form-control\" type=\"password\" name=\"password\" id=\"password\"><!--v-if--></div><div class=\"form-group\"><label for=\"birthYear\">Birth Year</label><input class=\"form-control\" type=\"number\" name=\"birthYear\" id=\"birthYear\"><!--v-if--></div><button type=\"submit\" class=\"btn btn-primary\">Let's go!</button></form></div>\n    at VueWrapper.Object.<anonymous>.VueWrapper.getComponent (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:2022:15)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:241:27\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
+          ],
+          "fullName": "Register.vue should display an alert on submission failure",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should display an alert on submission failure"
         }
       ],
       "skipped": false,
@@ -489,236 +687,6 @@
   ],
   "wasInterrupted": false,
   "coverageMap": {
-    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Home.vue": {
-      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Home.vue",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 3,
-            "column": 0
-          },
-          "end": {
-            "line": 5,
-            "column": 3
-          }
-        },
-        "1": {
-          "start": {
-            "line": 7,
-            "column": 12
-          },
-          "end": {
-            "line": 7,
-            "column": 26
-          }
-        },
-        "2": {
-          "start": {
-            "line": 9,
-            "column": 0
-          },
-          "end": {
-            "line": 11,
-            "column": 3
-          }
-        },
-        "3": {
-          "start": {
-            "line": 12,
-            "column": 0
-          },
-          "end": {
-            "line": 12,
-            "column": 13
-          }
-        },
-        "4": {
-          "start": {
-            "line": 13,
-            "column": 0
-          },
-          "end": {
-            "line": 13,
-            "column": 62
-          }
-        },
-        "5": {
-          "start": {
-            "line": 14,
-            "column": 0
-          },
-          "end": {
-            "line": 14,
-            "column": 24
-          }
-        },
-        "6": {
-          "start": {
-            "line": 15,
-            "column": 12
-          },
-          "end": {
-            "line": 15,
-            "column": 26
-          }
-        },
-        "7": {
-          "start": {
-            "line": 16,
-            "column": 17
-          },
-          "end": {
-            "line": 19,
-            "column": 1
-          }
-        },
-        "8": {
-          "start": {
-            "line": 20,
-            "column": 31
-          },
-          "end": {
-            "line": 25,
-            "column": 20
-          }
-        },
-        "9": {
-          "start": {
-            "line": 26,
-            "column": 31
-          },
-          "end": {
-            "line": 26,
-            "column": 61
-          }
-        },
-        "10": {
-          "start": {
-            "line": 28,
-            "column": 33
-          },
-          "end": {
-            "line": 28,
-            "column": 70
-          }
-        },
-        "11": {
-          "start": {
-            "line": 29,
-            "column": 4
-          },
-          "end": {
-            "line": 42,
-            "column": 8
-          }
-        },
-        "12": {
-          "start": {
-            "line": 36,
-            "column": 53
-          },
-          "end": {
-            "line": 38,
-            "column": 18
-          }
-        },
-        "13": {
-          "start": {
-            "line": 44,
-            "column": 0
-          },
-          "end": {
-            "line": 44,
-            "column": 24
-          }
-        },
-        "14": {
-          "start": {
-            "line": 45,
-            "column": 1
-          },
-          "end": {
-            "line": 45,
-            "column": 48
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "render",
-          "decl": {
-            "start": {
-              "line": 27,
-              "column": 9
-            },
-            "end": {
-              "line": 27,
-              "column": 15
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 27,
-              "column": 30
-            },
-            "end": {
-              "line": 43,
-              "column": 1
-            }
-          },
-          "line": 27
-        },
-        "1": {
-          "name": "(anonymous_1)",
-          "decl": {
-            "start": {
-              "line": 36,
-              "column": 39
-            },
-            "end": {
-              "line": 36,
-              "column": 40
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 36,
-              "column": 51
-            },
-            "end": {
-              "line": 38,
-              "column": 20
-            }
-          },
-          "line": 36
-        }
-      },
-      "branchMap": {},
-      "s": {
-        "0": 1,
-        "1": 1,
-        "2": 1,
-        "3": 1,
-        "4": 1,
-        "5": 1,
-        "6": 1,
-        "7": 1,
-        "8": 1,
-        "9": 1,
-        "10": 2,
-        "11": 2,
-        "12": 2,
-        "13": 1,
-        "14": 1
-      },
-      "f": {
-        "0": 2,
-        "1": 2
-      },
-      "b": {},
-      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
-      "hash": "07651e99d2dc3aaecad4375f84142e2e325b770f"
-    },
     "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Races.vue": {
       "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Races.vue",
       "statementMap": {
@@ -1913,8 +1881,8 @@
       },
       "branchMap": {},
       "s": {
-        "0": 2,
-        "1": 2,
+        "0": 3,
+        "1": 3,
         "2": 3,
         "3": 3,
         "4": 4,
@@ -1931,6 +1899,2685 @@
         "3": 4
       },
       "b": {}
+    },
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Home.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Home.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 3
+          }
+        },
+        "1": {
+          "start": {
+            "line": 7,
+            "column": 12
+          },
+          "end": {
+            "line": 7,
+            "column": 26
+          }
+        },
+        "2": {
+          "start": {
+            "line": 9,
+            "column": 0
+          },
+          "end": {
+            "line": 11,
+            "column": 3
+          }
+        },
+        "3": {
+          "start": {
+            "line": 12,
+            "column": 0
+          },
+          "end": {
+            "line": 12,
+            "column": 13
+          }
+        },
+        "4": {
+          "start": {
+            "line": 13,
+            "column": 0
+          },
+          "end": {
+            "line": 13,
+            "column": 62
+          }
+        },
+        "5": {
+          "start": {
+            "line": 14,
+            "column": 0
+          },
+          "end": {
+            "line": 14,
+            "column": 24
+          }
+        },
+        "6": {
+          "start": {
+            "line": 15,
+            "column": 12
+          },
+          "end": {
+            "line": 15,
+            "column": 26
+          }
+        },
+        "7": {
+          "start": {
+            "line": 16,
+            "column": 17
+          },
+          "end": {
+            "line": 19,
+            "column": 1
+          }
+        },
+        "8": {
+          "start": {
+            "line": 20,
+            "column": 31
+          },
+          "end": {
+            "line": 25,
+            "column": 20
+          }
+        },
+        "9": {
+          "start": {
+            "line": 26,
+            "column": 17
+          },
+          "end": {
+            "line": 26,
+            "column": 34
+          }
+        },
+        "10": {
+          "start": {
+            "line": 27,
+            "column": 31
+          },
+          "end": {
+            "line": 27,
+            "column": 61
+          }
+        },
+        "11": {
+          "start": {
+            "line": 28,
+            "column": 17
+          },
+          "end": {
+            "line": 28,
+            "column": 34
+          }
+        },
+        "12": {
+          "start": {
+            "line": 29,
+            "column": 31
+          },
+          "end": {
+            "line": 29,
+            "column": 64
+          }
+        },
+        "13": {
+          "start": {
+            "line": 31,
+            "column": 33
+          },
+          "end": {
+            "line": 31,
+            "column": 70
+          }
+        },
+        "14": {
+          "start": {
+            "line": 32,
+            "column": 4
+          },
+          "end": {
+            "line": 56,
+            "column": 8
+          }
+        },
+        "15": {
+          "start": {
+            "line": 39,
+            "column": 53
+          },
+          "end": {
+            "line": 41,
+            "column": 18
+          }
+        },
+        "16": {
+          "start": {
+            "line": 50,
+            "column": 53
+          },
+          "end": {
+            "line": 52,
+            "column": 18
+          }
+        },
+        "17": {
+          "start": {
+            "line": 58,
+            "column": 0
+          },
+          "end": {
+            "line": 58,
+            "column": 24
+          }
+        },
+        "18": {
+          "start": {
+            "line": 59,
+            "column": 1
+          },
+          "end": {
+            "line": 59,
+            "column": 48
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "render",
+          "decl": {
+            "start": {
+              "line": 30,
+              "column": 9
+            },
+            "end": {
+              "line": 30,
+              "column": 15
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 30
+            },
+            "end": {
+              "line": 57,
+              "column": 1
+            }
+          },
+          "line": 30
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 39,
+              "column": 39
+            },
+            "end": {
+              "line": 39,
+              "column": 40
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 39,
+              "column": 51
+            },
+            "end": {
+              "line": 41,
+              "column": 20
+            }
+          },
+          "line": 39
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": {
+            "start": {
+              "line": 50,
+              "column": 39
+            },
+            "end": {
+              "line": 50,
+              "column": 40
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 50,
+              "column": 51
+            },
+            "end": {
+              "line": 52,
+              "column": 20
+            }
+          },
+          "line": 50
+        }
+      },
+      "branchMap": {},
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 3,
+        "14": 3,
+        "15": 3,
+        "16": 3,
+        "17": 1,
+        "18": 1
+      },
+      "f": {
+        "0": 3,
+        "1": 3,
+        "2": 3
+      },
+      "b": {},
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "33fb6ce030d31e7cf8fdabee315630b01fb12f5f"
+    },
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\composables\\UserService.ts": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\composables\\UserService.ts",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 3,
+            "column": 26
+          }
+        },
+        "1": {
+          "start": {
+            "line": 5,
+            "column": 16
+          },
+          "end": {
+            "line": 5,
+            "column": 51
+          }
+        },
+        "2": {
+          "start": {
+            "line": 8,
+            "column": 2
+          },
+          "end": {
+            "line": 14,
+            "column": 4
+          }
+        },
+        "3": {
+          "start": {
+            "line": 10,
+            "column": 23
+          },
+          "end": {
+            "line": 10,
+            "column": null
+          }
+        },
+        "4": {
+          "start": {
+            "line": 10,
+            "column": 12
+          },
+          "end": {
+            "line": 10,
+            "column": null
+          }
+        },
+        "5": {
+          "start": {
+            "line": 12,
+            "column": 6
+          },
+          "end": {
+            "line": 12,
+            "column": null
+          }
+        },
+        "6": {
+          "start": {
+            "line": 7,
+            "column": 0
+          },
+          "end": {
+            "line": 7,
+            "column": 16
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "useUserService",
+          "decl": {
+            "start": {
+              "line": 7,
+              "column": 16
+            },
+            "end": {
+              "line": 7,
+              "column": 30
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 30
+            },
+            "end": {
+              "line": 15,
+              "column": 1
+            }
+          }
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 9,
+              "column": 4
+            },
+            "end": {
+              "line": 9,
+              "column": 10
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 39
+            },
+            "end": {
+              "line": 13,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 23
+            },
+            "end": {
+              "line": 10,
+              "column": null
+            }
+          },
+          "type": "switch",
+          "locations": [
+            {
+              "start": {
+                "line": 10,
+                "column": 23
+              },
+              "end": {
+                "line": 10,
+                "column": null
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1
+      },
+      "f": {
+        "0": 1,
+        "1": 1
+      },
+      "b": {
+        "0": [
+          1
+        ]
+      }
+    },
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Register.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Register.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 3,
+            "column": 0
+          },
+          "end": {
+            "line": 5,
+            "column": 3
+          }
+        },
+        "1": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 30
+          }
+        },
+        "2": {
+          "start": {
+            "line": 9,
+            "column": 12
+          },
+          "end": {
+            "line": 9,
+            "column": 26
+          }
+        },
+        "3": {
+          "start": {
+            "line": 11,
+            "column": 20
+          },
+          "end": {
+            "line": 11,
+            "column": 56
+          }
+        },
+        "4": {
+          "start": {
+            "line": 13,
+            "column": 18
+          },
+          "end": {
+            "line": 13,
+            "column": 76
+          }
+        },
+        "5": {
+          "start": {
+            "line": 15,
+            "column": 0
+          },
+          "end": {
+            "line": 110,
+            "column": 3
+          }
+        },
+        "6": {
+          "start": {
+            "line": 21,
+            "column": 26
+          },
+          "end": {
+            "line": 21,
+            "column": 41
+          }
+        },
+        "7": {
+          "start": {
+            "line": 22,
+            "column": 22
+          },
+          "end": {
+            "line": 22,
+            "column": 52
+          }
+        },
+        "8": {
+          "start": {
+            "line": 23,
+            "column": 29
+          },
+          "end": {
+            "line": 23,
+            "column": 45
+          }
+        },
+        "9": {
+          "start": {
+            "line": 24,
+            "column": 20
+          },
+          "end": {
+            "line": 28,
+            "column": 6
+          }
+        },
+        "10": {
+          "start": {
+            "line": 29,
+            "column": 17
+          },
+          "end": {
+            "line": 45,
+            "column": 6
+          }
+        },
+        "11": {
+          "start": {
+            "line": 30,
+            "column": 19
+          },
+          "end": {
+            "line": 30,
+            "column": 21
+          }
+        },
+        "12": {
+          "start": {
+            "line": 32,
+            "column": 6
+          },
+          "end": {
+            "line": 34,
+            "column": 7
+          }
+        },
+        "13": {
+          "start": {
+            "line": 33,
+            "column": 8
+          },
+          "end": {
+            "line": 33,
+            "column": 28
+          }
+        },
+        "14": {
+          "start": {
+            "line": 36,
+            "column": 6
+          },
+          "end": {
+            "line": 38,
+            "column": 7
+          }
+        },
+        "15": {
+          "start": {
+            "line": 37,
+            "column": 8
+          },
+          "end": {
+            "line": 37,
+            "column": 31
+          }
+        },
+        "16": {
+          "start": {
+            "line": 40,
+            "column": 6
+          },
+          "end": {
+            "line": 42,
+            "column": 7
+          }
+        },
+        "17": {
+          "start": {
+            "line": 41,
+            "column": 8
+          },
+          "end": {
+            "line": 41,
+            "column": 32
+          }
+        },
+        "18": {
+          "start": {
+            "line": 44,
+            "column": 6
+          },
+          "end": {
+            "line": 44,
+            "column": 20
+          }
+        },
+        "19": {
+          "start": {
+            "line": 46,
+            "column": 16
+          },
+          "end": {
+            "line": 50,
+            "column": 6
+          }
+        },
+        "20": {
+          "start": {
+            "line": 52,
+            "column": 20
+          },
+          "end": {
+            "line": 54,
+            "column": 5
+          }
+        },
+        "21": {
+          "start": {
+            "line": 53,
+            "column": 6
+          },
+          "end": {
+            "line": 53,
+            "column": 25
+          }
+        },
+        "22": {
+          "start": {
+            "line": 56,
+            "column": 23
+          },
+          "end": {
+            "line": 58,
+            "column": 5
+          }
+        },
+        "23": {
+          "start": {
+            "line": 57,
+            "column": 6
+          },
+          "end": {
+            "line": 57,
+            "column": 28
+          }
+        },
+        "24": {
+          "start": {
+            "line": 60,
+            "column": 24
+          },
+          "end": {
+            "line": 62,
+            "column": 5
+          }
+        },
+        "25": {
+          "start": {
+            "line": 61,
+            "column": 6
+          },
+          "end": {
+            "line": 61,
+            "column": 29
+          }
+        },
+        "26": {
+          "start": {
+            "line": 65,
+            "column": 6
+          },
+          "end": {
+            "line": 97,
+            "column": 9
+          }
+        },
+        "27": {
+          "start": {
+            "line": 68,
+            "column": 8
+          },
+          "end": {
+            "line": 96,
+            "column": 11
+          }
+        },
+        "28": {
+          "start": {
+            "line": 69,
+            "column": 10
+          },
+          "end": {
+            "line": 95,
+            "column": 11
+          }
+        },
+        "29": {
+          "start": {
+            "line": 71,
+            "column": 14
+          },
+          "end": {
+            "line": 71,
+            "column": 39
+          }
+        },
+        "30": {
+          "start": {
+            "line": 73,
+            "column": 14
+          },
+          "end": {
+            "line": 73,
+            "column": 35
+          }
+        },
+        "31": {
+          "start": {
+            "line": 74,
+            "column": 14
+          },
+          "end": {
+            "line": 76,
+            "column": 49
+          }
+        },
+        "32": {
+          "start": {
+            "line": 79,
+            "column": 14
+          },
+          "end": {
+            "line": 79,
+            "column": 35
+          }
+        },
+        "33": {
+          "start": {
+            "line": 80,
+            "column": 14
+          },
+          "end": {
+            "line": 82,
+            "column": 19
+          }
+        },
+        "34": {
+          "start": {
+            "line": 85,
+            "column": 14
+          },
+          "end": {
+            "line": 85,
+            "column": 34
+          }
+        },
+        "35": {
+          "start": {
+            "line": 86,
+            "column": 14
+          },
+          "end": {
+            "line": 86,
+            "column": 46
+          }
+        },
+        "36": {
+          "start": {
+            "line": 87,
+            "column": 14
+          },
+          "end": {
+            "line": 89,
+            "column": 19
+          }
+        },
+        "37": {
+          "start": {
+            "line": 92,
+            "column": 14
+          },
+          "end": {
+            "line": 94,
+            "column": 16
+          }
+        },
+        "38": {
+          "start": {
+            "line": 101,
+            "column": 4
+          },
+          "end": {
+            "line": 108,
+            "column": 7
+          }
+        },
+        "39": {
+          "start": {
+            "line": 111,
+            "column": 0
+          },
+          "end": {
+            "line": 111,
+            "column": 13
+          }
+        },
+        "40": {
+          "start": {
+            "line": 112,
+            "column": 0
+          },
+          "end": {
+            "line": 112,
+            "column": 62
+          }
+        },
+        "41": {
+          "start": {
+            "line": 113,
+            "column": 0
+          },
+          "end": {
+            "line": 113,
+            "column": 24
+          }
+        },
+        "42": {
+          "start": {
+            "line": 114,
+            "column": 12
+          },
+          "end": {
+            "line": 114,
+            "column": 26
+          }
+        },
+        "43": {
+          "start": {
+            "line": 115,
+            "column": 17
+          },
+          "end": {
+            "line": 115,
+            "column": 39
+          }
+        },
+        "44": {
+          "start": {
+            "line": 116,
+            "column": 31
+          },
+          "end": {
+            "line": 116,
+            "column": 91
+          }
+        },
+        "45": {
+          "start": {
+            "line": 117,
+            "column": 17
+          },
+          "end": {
+            "line": 117,
+            "column": 40
+          }
+        },
+        "46": {
+          "start": {
+            "line": 118,
+            "column": 31
+          },
+          "end": {
+            "line": 118,
+            "column": 102
+          }
+        },
+        "47": {
+          "start": {
+            "line": 119,
+            "column": 17
+          },
+          "end": {
+            "line": 119,
+            "column": 40
+          }
+        },
+        "48": {
+          "start": {
+            "line": 120,
+            "column": 31
+          },
+          "end": {
+            "line": 120,
+            "column": 108
+          }
+        },
+        "49": {
+          "start": {
+            "line": 121,
+            "column": 17
+          },
+          "end": {
+            "line": 121,
+            "column": 40
+          }
+        },
+        "50": {
+          "start": {
+            "line": 122,
+            "column": 31
+          },
+          "end": {
+            "line": 122,
+            "column": 111
+          }
+        },
+        "51": {
+          "start": {
+            "line": 123,
+            "column": 31
+          },
+          "end": {
+            "line": 126,
+            "column": 33
+          }
+        },
+        "52": {
+          "start": {
+            "line": 128,
+            "column": 27
+          },
+          "end": {
+            "line": 128,
+            "column": 58
+          }
+        },
+        "53": {
+          "start": {
+            "line": 129,
+            "column": 4
+          },
+          "end": {
+            "line": 211,
+            "column": 8
+          }
+        },
+        "54": {
+          "start": {
+            "line": 132,
+            "column": 53
+          },
+          "end": {
+            "line": 134,
+            "column": 18
+          }
+        },
+        "55": {
+          "start": {
+            "line": 139,
+            "column": 88
+          },
+          "end": {
+            "line": 139,
+            "column": 113
+          }
+        },
+        "56": {
+          "start": {
+            "line": 145,
+            "column": 76
+          },
+          "end": {
+            "line": 145,
+            "column": 102
+          }
+        },
+        "57": {
+          "start": {
+            "line": 146,
+            "column": 89
+          },
+          "end": {
+            "line": 146,
+            "column": 118
+          }
+        },
+        "58": {
+          "start": {
+            "line": 165,
+            "column": 35
+          },
+          "end": {
+            "line": 165,
+            "column": 37
+          }
+        },
+        "59": {
+          "start": {
+            "line": 166,
+            "column": 24
+          },
+          "end": {
+            "line": 168,
+            "column": 25
+          }
+        },
+        "60": {
+          "start": {
+            "line": 166,
+            "column": 38
+          },
+          "end": {
+            "line": 166,
+            "column": 39
+          }
+        },
+        "61": {
+          "start": {
+            "line": 167,
+            "column": 28
+          },
+          "end": {
+            "line": 167,
+            "column": 53
+          }
+        },
+        "62": {
+          "start": {
+            "line": 169,
+            "column": 24
+          },
+          "end": {
+            "line": 169,
+            "column": 90
+          }
+        },
+        "63": {
+          "start": {
+            "line": 171,
+            "column": 89
+          },
+          "end": {
+            "line": 171,
+            "column": 121
+          }
+        },
+        "64": {
+          "start": {
+            "line": 189,
+            "column": 76
+          },
+          "end": {
+            "line": 189,
+            "column": 106
+          }
+        },
+        "65": {
+          "start": {
+            "line": 190,
+            "column": 89
+          },
+          "end": {
+            "line": 190,
+            "column": 122
+          }
+        },
+        "66": {
+          "start": {
+            "line": 213,
+            "column": 0
+          },
+          "end": {
+            "line": 213,
+            "column": 24
+          }
+        },
+        "67": {
+          "start": {
+            "line": 214,
+            "column": 1
+          },
+          "end": {
+            "line": 214,
+            "column": 48
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 20,
+              "column": 9
+            },
+            "end": {
+              "line": 20,
+              "column": 10
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 21
+            },
+            "end": {
+              "line": 109,
+              "column": 3
+            }
+          },
+          "line": 20
+        },
+        "1": {
+          "name": "(anonymous_1)",
+          "decl": {
+            "start": {
+              "line": 29,
+              "column": 32
+            },
+            "end": {
+              "line": 29,
+              "column": 33
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 29,
+              "column": 44
+            },
+            "end": {
+              "line": 45,
+              "column": 5
+            }
+          },
+          "line": 29
+        },
+        "2": {
+          "name": "(anonymous_2)",
+          "decl": {
+            "start": {
+              "line": 52,
+              "column": 20
+            },
+            "end": {
+              "line": 52,
+              "column": 21
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 32
+            },
+            "end": {
+              "line": 54,
+              "column": 5
+            }
+          },
+          "line": 52
+        },
+        "3": {
+          "name": "(anonymous_3)",
+          "decl": {
+            "start": {
+              "line": 56,
+              "column": 23
+            },
+            "end": {
+              "line": 56,
+              "column": 24
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 56,
+              "column": 35
+            },
+            "end": {
+              "line": 58,
+              "column": 5
+            }
+          },
+          "line": 56
+        },
+        "4": {
+          "name": "(anonymous_4)",
+          "decl": {
+            "start": {
+              "line": 60,
+              "column": 24
+            },
+            "end": {
+              "line": 60,
+              "column": 25
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 60,
+              "column": 36
+            },
+            "end": {
+              "line": 62,
+              "column": 5
+            }
+          },
+          "line": 60
+        },
+        "5": {
+          "name": "register",
+          "decl": {
+            "start": {
+              "line": 64,
+              "column": 13
+            },
+            "end": {
+              "line": 64,
+              "column": 21
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 64,
+              "column": 24
+            },
+            "end": {
+              "line": 98,
+              "column": 5
+            }
+          },
+          "line": 64
+        },
+        "6": {
+          "name": "(anonymous_6)",
+          "decl": {
+            "start": {
+              "line": 65,
+              "column": 53
+            },
+            "end": {
+              "line": 65,
+              "column": 54
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 65,
+              "column": 65
+            },
+            "end": {
+              "line": 97,
+              "column": 7
+            }
+          },
+          "line": 65
+        },
+        "7": {
+          "name": "(anonymous_7)",
+          "decl": {
+            "start": {
+              "line": 68,
+              "column": 41
+            },
+            "end": {
+              "line": 68,
+              "column": 42
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 68,
+              "column": 55
+            },
+            "end": {
+              "line": 96,
+              "column": 9
+            }
+          },
+          "line": 68
+        },
+        "8": {
+          "name": "render",
+          "decl": {
+            "start": {
+              "line": 127,
+              "column": 9
+            },
+            "end": {
+              "line": 127,
+              "column": 15
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 127,
+              "column": 30
+            },
+            "end": {
+              "line": 212,
+              "column": 1
+            }
+          },
+          "line": 127
+        },
+        "9": {
+          "name": "(anonymous_9)",
+          "decl": {
+            "start": {
+              "line": 132,
+              "column": 39
+            },
+            "end": {
+              "line": 132,
+              "column": 40
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 132,
+              "column": 51
+            },
+            "end": {
+              "line": 134,
+              "column": 20
+            }
+          },
+          "line": 132
+        },
+        "10": {
+          "name": "(anonymous_10)",
+          "decl": {
+            "start": {
+              "line": 139,
+              "column": 68
+            },
+            "end": {
+              "line": 139,
+              "column": 69
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 139,
+              "column": 86
+            },
+            "end": {
+              "line": 139,
+              "column": 115
+            }
+          },
+          "line": 139
+        },
+        "11": {
+          "name": "(anonymous_11)",
+          "decl": {
+            "start": {
+              "line": 145,
+              "column": 56
+            },
+            "end": {
+              "line": 145,
+              "column": 57
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 145,
+              "column": 74
+            },
+            "end": {
+              "line": 145,
+              "column": 104
+            }
+          },
+          "line": 145
+        },
+        "12": {
+          "name": "(anonymous_12)",
+          "decl": {
+            "start": {
+              "line": 146,
+              "column": 69
+            },
+            "end": {
+              "line": 146,
+              "column": 70
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 146,
+              "column": 87
+            },
+            "end": {
+              "line": 146,
+              "column": 120
+            }
+          },
+          "line": 146
+        },
+        "13": {
+          "name": "(anonymous_13)",
+          "decl": {
+            "start": {
+              "line": 164,
+              "column": 56
+            },
+            "end": {
+              "line": 164,
+              "column": 57
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 164,
+              "column": 68
+            },
+            "end": {
+              "line": 170,
+              "column": 21
+            }
+          },
+          "line": 164
+        },
+        "14": {
+          "name": "(anonymous_14)",
+          "decl": {
+            "start": {
+              "line": 171,
+              "column": 69
+            },
+            "end": {
+              "line": 171,
+              "column": 70
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 171,
+              "column": 87
+            },
+            "end": {
+              "line": 171,
+              "column": 123
+            }
+          },
+          "line": 171
+        },
+        "15": {
+          "name": "(anonymous_15)",
+          "decl": {
+            "start": {
+              "line": 189,
+              "column": 56
+            },
+            "end": {
+              "line": 189,
+              "column": 57
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 189,
+              "column": 74
+            },
+            "end": {
+              "line": 189,
+              "column": 108
+            }
+          },
+          "line": 189
+        },
+        "16": {
+          "name": "(anonymous_16)",
+          "decl": {
+            "start": {
+              "line": 190,
+              "column": 69
+            },
+            "end": {
+              "line": 190,
+              "column": 70
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 190,
+              "column": 87
+            },
+            "end": {
+              "line": 190,
+              "column": 124
+            }
+          },
+          "line": 190
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 32,
+              "column": 6
+            },
+            "end": {
+              "line": 34,
+              "column": 7
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 32,
+                "column": 6
+              },
+              "end": {
+                "line": 34,
+                "column": 7
+              }
+            },
+            {
+              "start": {
+                "line": 32,
+                "column": 6
+              },
+              "end": {
+                "line": 34,
+                "column": 7
+              }
+            }
+          ],
+          "line": 32
+        },
+        "1": {
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 6
+            },
+            "end": {
+              "line": 38,
+              "column": 7
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 36,
+                "column": 6
+              },
+              "end": {
+                "line": 38,
+                "column": 7
+              }
+            },
+            {
+              "start": {
+                "line": 36,
+                "column": 6
+              },
+              "end": {
+                "line": 38,
+                "column": 7
+              }
+            }
+          ],
+          "line": 36
+        },
+        "2": {
+          "loc": {
+            "start": {
+              "line": 40,
+              "column": 6
+            },
+            "end": {
+              "line": 42,
+              "column": 7
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 40,
+                "column": 6
+              },
+              "end": {
+                "line": 42,
+                "column": 7
+              }
+            },
+            {
+              "start": {
+                "line": 40,
+                "column": 6
+              },
+              "end": {
+                "line": 42,
+                "column": 7
+              }
+            }
+          ],
+          "line": 40
+        },
+        "3": {
+          "loc": {
+            "start": {
+              "line": 69,
+              "column": 10
+            },
+            "end": {
+              "line": 95,
+              "column": 11
+            }
+          },
+          "type": "switch",
+          "locations": [
+            {
+              "start": {
+                "line": 70,
+                "column": 12
+              },
+              "end": {
+                "line": 76,
+                "column": 49
+              }
+            },
+            {
+              "start": {
+                "line": 78,
+                "column": 12
+              },
+              "end": {
+                "line": 82,
+                "column": 19
+              }
+            },
+            {
+              "start": {
+                "line": 84,
+                "column": 12
+              },
+              "end": {
+                "line": 89,
+                "column": 19
+              }
+            },
+            {
+              "start": {
+                "line": 91,
+                "column": 12
+              },
+              "end": {
+                "line": 94,
+                "column": 16
+              }
+            }
+          ],
+          "line": 69
+        },
+        "4": {
+          "loc": {
+            "start": {
+              "line": 130,
+              "column": 8
+            },
+            "end": {
+              "line": 137,
+              "column": 52
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 131,
+                "column": 15
+              },
+              "end": {
+                "line": 136,
+                "column": 14
+              }
+            },
+            {
+              "start": {
+                "line": 137,
+                "column": 14
+              },
+              "end": {
+                "line": 137,
+                "column": 52
+              }
+            }
+          ],
+          "line": 130
+        },
+        "5": {
+          "loc": {
+            "start": {
+              "line": 139,
+              "column": 22
+            },
+            "end": {
+              "line": 139,
+              "column": 130
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 139,
+                "column": 22
+              },
+              "end": {
+                "line": 139,
+                "column": 31
+              }
+            },
+            {
+              "start": {
+                "line": 139,
+                "column": 36
+              },
+              "end": {
+                "line": 139,
+                "column": 129
+              }
+            }
+          ],
+          "line": 139
+        },
+        "6": {
+          "loc": {
+            "start": {
+              "line": 144,
+              "column": 44
+            },
+            "end": {
+              "line": 144,
+              "column": 81
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 144,
+                "column": 44
+              },
+              "end": {
+                "line": 144,
+                "column": 61
+              }
+            },
+            {
+              "start": {
+                "line": 144,
+                "column": 65
+              },
+              "end": {
+                "line": 144,
+                "column": 81
+              }
+            }
+          ],
+          "line": 144
+        },
+        "7": {
+          "loc": {
+            "start": {
+              "line": 145,
+              "column": 30
+            },
+            "end": {
+              "line": 145,
+              "column": 105
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 145,
+                "column": 30
+              },
+              "end": {
+                "line": 145,
+                "column": 39
+              }
+            },
+            {
+              "start": {
+                "line": 145,
+                "column": 44
+              },
+              "end": {
+                "line": 145,
+                "column": 104
+              }
+            }
+          ],
+          "line": 145
+        },
+        "8": {
+          "loc": {
+            "start": {
+              "line": 146,
+              "column": 43
+            },
+            "end": {
+              "line": 146,
+              "column": 121
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 146,
+                "column": 43
+              },
+              "end": {
+                "line": 146,
+                "column": 52
+              }
+            },
+            {
+              "start": {
+                "line": 146,
+                "column": 57
+              },
+              "end": {
+                "line": 146,
+                "column": 120
+              }
+            }
+          ],
+          "line": 146
+        },
+        "9": {
+          "loc": {
+            "start": {
+              "line": 153,
+              "column": 16
+            },
+            "end": {
+              "line": 158,
+              "column": 60
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 154,
+                "column": 23
+              },
+              "end": {
+                "line": 157,
+                "column": 64
+              }
+            },
+            {
+              "start": {
+                "line": 158,
+                "column": 22
+              },
+              "end": {
+                "line": 158,
+                "column": 60
+              }
+            }
+          ],
+          "line": 153
+        },
+        "10": {
+          "loc": {
+            "start": {
+              "line": 153,
+              "column": 17
+            },
+            "end": {
+              "line": 153,
+              "column": 54
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 153,
+                "column": 17
+              },
+              "end": {
+                "line": 153,
+                "column": 34
+              }
+            },
+            {
+              "start": {
+                "line": 153,
+                "column": 38
+              },
+              "end": {
+                "line": 153,
+                "column": 54
+              }
+            }
+          ],
+          "line": 153
+        },
+        "11": {
+          "loc": {
+            "start": {
+              "line": 156,
+              "column": 77
+            },
+            "end": {
+              "line": 156,
+              "column": 114
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 156,
+                "column": 77
+              },
+              "end": {
+                "line": 156,
+                "column": 94
+              }
+            },
+            {
+              "start": {
+                "line": 156,
+                "column": 98
+              },
+              "end": {
+                "line": 156,
+                "column": 114
+              }
+            }
+          ],
+          "line": 156
+        },
+        "12": {
+          "loc": {
+            "start": {
+              "line": 163,
+              "column": 44
+            },
+            "end": {
+              "line": 163,
+              "column": 87
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 163,
+                "column": 44
+              },
+              "end": {
+                "line": 163,
+                "column": 64
+              }
+            },
+            {
+              "start": {
+                "line": 163,
+                "column": 68
+              },
+              "end": {
+                "line": 163,
+                "column": 87
+              }
+            }
+          ],
+          "line": 163
+        },
+        "13": {
+          "loc": {
+            "start": {
+              "line": 164,
+              "column": 30
+            },
+            "end": {
+              "line": 170,
+              "column": 22
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 164,
+                "column": 30
+              },
+              "end": {
+                "line": 164,
+                "column": 39
+              }
+            },
+            {
+              "start": {
+                "line": 164,
+                "column": 44
+              },
+              "end": {
+                "line": 170,
+                "column": 21
+              }
+            }
+          ],
+          "line": 164
+        },
+        "14": {
+          "loc": {
+            "start": {
+              "line": 169,
+              "column": 32
+            },
+            "end": {
+              "line": 169,
+              "column": 88
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 169,
+                "column": 32
+              },
+              "end": {
+                "line": 169,
+                "column": 49
+              }
+            },
+            {
+              "start": {
+                "line": 169,
+                "column": 53
+              },
+              "end": {
+                "line": 169,
+                "column": 88
+              }
+            }
+          ],
+          "line": 169
+        },
+        "15": {
+          "loc": {
+            "start": {
+              "line": 171,
+              "column": 43
+            },
+            "end": {
+              "line": 171,
+              "column": 124
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 171,
+                "column": 43
+              },
+              "end": {
+                "line": 171,
+                "column": 52
+              }
+            },
+            {
+              "start": {
+                "line": 171,
+                "column": 57
+              },
+              "end": {
+                "line": 171,
+                "column": 123
+              }
+            }
+          ],
+          "line": 171
+        },
+        "16": {
+          "loc": {
+            "start": {
+              "line": 178,
+              "column": 16
+            },
+            "end": {
+              "line": 183,
+              "column": 60
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 179,
+                "column": 23
+              },
+              "end": {
+                "line": 182,
+                "column": 67
+              }
+            },
+            {
+              "start": {
+                "line": 183,
+                "column": 22
+              },
+              "end": {
+                "line": 183,
+                "column": 60
+              }
+            }
+          ],
+          "line": 178
+        },
+        "17": {
+          "loc": {
+            "start": {
+              "line": 178,
+              "column": 17
+            },
+            "end": {
+              "line": 178,
+              "column": 60
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 178,
+                "column": 17
+              },
+              "end": {
+                "line": 178,
+                "column": 37
+              }
+            },
+            {
+              "start": {
+                "line": 178,
+                "column": 41
+              },
+              "end": {
+                "line": 178,
+                "column": 60
+              }
+            }
+          ],
+          "line": 178
+        },
+        "18": {
+          "loc": {
+            "start": {
+              "line": 181,
+              "column": 48
+            },
+            "end": {
+              "line": 181,
+              "column": 91
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 181,
+                "column": 48
+              },
+              "end": {
+                "line": 181,
+                "column": 68
+              }
+            },
+            {
+              "start": {
+                "line": 181,
+                "column": 72
+              },
+              "end": {
+                "line": 181,
+                "column": 91
+              }
+            }
+          ],
+          "line": 181
+        },
+        "19": {
+          "loc": {
+            "start": {
+              "line": 188,
+              "column": 44
+            },
+            "end": {
+              "line": 188,
+              "column": 89
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 188,
+                "column": 44
+              },
+              "end": {
+                "line": 188,
+                "column": 65
+              }
+            },
+            {
+              "start": {
+                "line": 188,
+                "column": 69
+              },
+              "end": {
+                "line": 188,
+                "column": 89
+              }
+            }
+          ],
+          "line": 188
+        },
+        "20": {
+          "loc": {
+            "start": {
+              "line": 189,
+              "column": 30
+            },
+            "end": {
+              "line": 189,
+              "column": 109
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 189,
+                "column": 30
+              },
+              "end": {
+                "line": 189,
+                "column": 39
+              }
+            },
+            {
+              "start": {
+                "line": 189,
+                "column": 44
+              },
+              "end": {
+                "line": 189,
+                "column": 108
+              }
+            }
+          ],
+          "line": 189
+        },
+        "21": {
+          "loc": {
+            "start": {
+              "line": 190,
+              "column": 43
+            },
+            "end": {
+              "line": 190,
+              "column": 125
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 190,
+                "column": 43
+              },
+              "end": {
+                "line": 190,
+                "column": 52
+              }
+            },
+            {
+              "start": {
+                "line": 190,
+                "column": 57
+              },
+              "end": {
+                "line": 190,
+                "column": 124
+              }
+            }
+          ],
+          "line": 190
+        },
+        "22": {
+          "loc": {
+            "start": {
+              "line": 202,
+              "column": 16
+            },
+            "end": {
+              "line": 207,
+              "column": 60
+            }
+          },
+          "type": "cond-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 203,
+                "column": 23
+              },
+              "end": {
+                "line": 206,
+                "column": 69
+              }
+            },
+            {
+              "start": {
+                "line": 207,
+                "column": 22
+              },
+              "end": {
+                "line": 207,
+                "column": 60
+              }
+            }
+          ],
+          "line": 202
+        },
+        "23": {
+          "loc": {
+            "start": {
+              "line": 202,
+              "column": 17
+            },
+            "end": {
+              "line": 202,
+              "column": 62
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 202,
+                "column": 17
+              },
+              "end": {
+                "line": 202,
+                "column": 38
+              }
+            },
+            {
+              "start": {
+                "line": 202,
+                "column": 42
+              },
+              "end": {
+                "line": 202,
+                "column": 62
+              }
+            }
+          ],
+          "line": 202
+        },
+        "24": {
+          "loc": {
+            "start": {
+              "line": 205,
+              "column": 48
+            },
+            "end": {
+              "line": 205,
+              "column": 93
+            }
+          },
+          "type": "binary-expr",
+          "locations": [
+            {
+              "start": {
+                "line": 205,
+                "column": 48
+              },
+              "end": {
+                "line": 205,
+                "column": 69
+              }
+            },
+            {
+              "start": {
+                "line": 205,
+                "column": 73
+              },
+              "end": {
+                "line": 205,
+                "column": 93
+              }
+            }
+          ],
+          "line": 205
+        }
+      },
+      "s": {
+        "0": 1,
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 9,
+        "7": 9,
+        "8": 9,
+        "9": 9,
+        "10": 9,
+        "11": 15,
+        "12": 15,
+        "13": 14,
+        "14": 15,
+        "15": 14,
+        "16": 15,
+        "17": 1,
+        "18": 15,
+        "19": 9,
+        "20": 9,
+        "21": 2,
+        "22": 9,
+        "23": 2,
+        "24": 9,
+        "25": 2,
+        "26": 2,
+        "27": 2,
+        "28": 7,
+        "29": 2,
+        "30": 2,
+        "31": 2,
+        "32": 2,
+        "33": 1,
+        "34": 1,
+        "35": 1,
+        "36": 1,
+        "37": 2,
+        "38": 9,
+        "39": 1,
+        "40": 1,
+        "41": 1,
+        "42": 1,
+        "43": 1,
+        "44": 1,
+        "45": 1,
+        "46": 1,
+        "47": 1,
+        "48": 1,
+        "49": 1,
+        "50": 1,
+        "51": 1,
+        "52": 15,
+        "53": 15,
+        "54": 0,
+        "55": 2,
+        "56": 2,
+        "57": 3,
+        "58": 2,
+        "59": 2,
+        "60": 2,
+        "61": 2,
+        "62": 2,
+        "63": 2,
+        "64": 2,
+        "65": 2,
+        "66": 1,
+        "67": 1
+      },
+      "f": {
+        "0": 9,
+        "1": 15,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 7,
+        "8": 15,
+        "9": 0,
+        "10": 2,
+        "11": 2,
+        "12": 3,
+        "13": 2,
+        "14": 2,
+        "15": 2,
+        "16": 2
+      },
+      "b": {
+        "0": [
+          14,
+          1
+        ],
+        "1": [
+          14,
+          1
+        ],
+        "2": [
+          1,
+          14
+        ],
+        "3": [
+          2,
+          2,
+          1,
+          2
+        ],
+        "4": [
+          0,
+          15
+        ],
+        "5": [
+          15,
+          9
+        ],
+        "6": [
+          15,
+          14
+        ],
+        "7": [
+          15,
+          9
+        ],
+        "8": [
+          15,
+          9
+        ],
+        "9": [
+          1,
+          14
+        ],
+        "10": [
+          15,
+          14
+        ],
+        "11": [
+          1,
+          1
+        ],
+        "12": [
+          15,
+          14
+        ],
+        "13": [
+          15,
+          9
+        ],
+        "14": [
+          2,
+          2
+        ],
+        "15": [
+          15,
+          9
+        ],
+        "16": [
+          1,
+          14
+        ],
+        "17": [
+          15,
+          14
+        ],
+        "18": [
+          1,
+          1
+        ],
+        "19": [
+          15,
+          1
+        ],
+        "20": [
+          15,
+          9
+        ],
+        "21": [
+          15,
+          9
+        ],
+        "22": [
+          1,
+          14
+        ],
+        "23": [
+          15,
+          1
+        ],
+        "24": [
+          1,
+          1
+        ]
+      },
+      "_coverageSchema": "43e27e138ebf9cfc5966b082cf9a028302ed4184",
+      "hash": "5b7fee1ee969e399c0e24069e7be385acd0b9d88"
     }
   }
 }

@@ -4,8 +4,11 @@
       <h1>Ponyracer <small>Always a pleasure to bet on ponies</small></h1>
     </div>
 
-    <div>
+    <div class="mt-4">
       <router-link class="btn btn-primary" :to="{ name: 'races' }">Races</router-link>
+    </div>
+    <div class="mt-4">
+      <router-link class="btn btn-primary" :to="{ name: 'register' }">Register</router-link>
     </div>
   </div>
 </template>
