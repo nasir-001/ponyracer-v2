@@ -32,7 +32,7 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import '@/forms';
-import { Form, Field } from 'vee-validate';
+import { Form, Field, ErrorMessage } from 'vee-validate';
 import { AuthenticateModel } from '@/models/UserModel';
 import { RegistrationResponse } from '@/models/RegistrationResponse';
 import { useUserService } from '@/composables/UserService';
@@ -45,7 +45,8 @@ export default defineComponent({
   components: {
     Form,
     Field,
-    Alert
+    Alert,
+    ErrorMessage
   },
 
   setup() {

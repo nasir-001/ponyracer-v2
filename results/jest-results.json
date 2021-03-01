@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 3,
-  "numFailedTests": 11,
-  "numPassedTestSuites": 9,
-  "numPassedTests": 22,
+  "numFailedTests": 5,
+  "numPassedTestSuites": 10,
+  "numPassedTests": 30,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 12,
-  "numTotalTests": 33,
+  "numTotalTestSuites": 13,
+  "numTotalTests": 35,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1614539558814,
+  "startTime": 1614606909201,
   "success": false,
   "testResults": [
     {
@@ -36,8 +36,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614539572126,
-        "start": 1614539563819
+        "end": 1614606922531,
+        "start": 1614606913485
       },
       "snapshot": {
         "added": 0,
@@ -54,7 +54,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 92,
+          "duration": 121,
           "failureMessages": [],
           "fullName": "App.vue renders the navbar",
           "location": null,
@@ -66,7 +66,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 66,
+          "duration": 102,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Loading...\"\u001b[39m\nReceived string:    \u001b[31m\"<nav class=\\\"navbar navbar-expand-md navbar-light bg-light\\\"><div class=\\\"navbar-link\\\"><a class=\\\"navbar-brand text-dark\\\">PonyRacer</a></div><button type=\\\"button\\\" class=\\\"navbar-toggler\\\"><span class=\\\"navbar-toggler-icon\\\"></span></button><div id=\\\"navbar\\\" class=\\\"navbar-collapse collapse\\\"><ul class=\\\"navbar-nav mr-auto\\\"><li class=\\\"nav-link\\\"><a class=\\\"navbar-brand text-dark\\\">Races</a></li></ul></div></nav><div class=\\\"container\\\" style=\\\"margin-top: 70px;\\\"><!--v-if--><!----></div>\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\App.spec.ts:57:28\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
           ],
@@ -80,7 +80,7 @@
           "ancestorTitles": [
             "App.vue"
           ],
-          "duration": 62,
+          "duration": 92,
           "failureMessages": [
             "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"Loading...\"\u001b[39m\nReceived string:    \u001b[31m\"<nav class=\\\"navbar navbar-expand-md navbar-light bg-light\\\"><div class=\\\"navbar-link\\\"><a class=\\\"navbar-brand text-dark\\\">PonyRacer</a></div><button type=\\\"button\\\" class=\\\"navbar-toggler\\\"><span class=\\\"navbar-toggler-icon\\\"></span></button><div id=\\\"navbar\\\" class=\\\"navbar-collapse collapse\\\"><ul class=\\\"navbar-nav mr-auto\\\"><li class=\\\"nav-link\\\"><a class=\\\"navbar-brand text-dark\\\">Races</a></li></ul></div></nav><div class=\\\"container\\\" style=\\\"margin-top: 70px;\\\"><!--v-if-->Hello</div>\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\App.spec.ts:75:28\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
           ],
@@ -95,447 +95,14 @@
       "leaks": false
     },
     {
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mLogin.vue › should display errors for login\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\n    Expected substring: \u001b[32m\"The login is required\"\u001b[39m\n    Received string:    \u001b[31m\"\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 62 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 63 |\u001b[39m     \u001b[90m// The login field should display an error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 64 |\u001b[39m     expect(loginError\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m'The login is required'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 65 |\u001b[39m     \u001b[90m// The login input should have the CSS class is-invalid when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 66 |\u001b[39m     expect(loginInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 67 |\u001b[39m     \u001b[90m// The login label should have the CSS class text-danger when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Login.spec.ts\u001b[39m\u001b[0m\u001b[2m:64:31\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mLogin.vue › should display errors for password\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\n    Expected substring: \u001b[32m\"The password is required\"\u001b[39m\n    Received string:    \u001b[31m\"\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  97 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  98 |\u001b[39m     \u001b[90m// The password field should display an error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m  99 |\u001b[39m     expect(passwordError\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m'The password is required'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 100 |\u001b[39m     \u001b[90m// The password input should have the CSS class is-invalid when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 101 |\u001b[39m     expect(passwordInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 102 |\u001b[39m     \u001b[90m// The password label should have the CSS class text-danger when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Login.spec.ts\u001b[39m\u001b[0m\u001b[2m:99:34\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mLogin.vue › should call the authenticate function on submit\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\n    Expected number of calls: >= \u001b[32m1\u001b[39m\n    Received number of calls:    \u001b[31m0\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 140 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 141 |\u001b[39m     \u001b[90m// It should redirect to home after a submission success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 142 |\u001b[39m     expect(mockRouter\u001b[33m.\u001b[39mpush)\u001b[33m.\u001b[39mtoHaveBeenCalled()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 143 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 144 |\u001b[39m     \u001b[36mconst\u001b[39m alert \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39mfindComponent(\u001b[33mAlert\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 145 |\u001b[39m     \u001b[90m// An alert should not be displayed on login success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Login.spec.ts\u001b[39m\u001b[0m\u001b[2m:142:29\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n",
-      "numFailingTests": 3,
-      "numPassingTests": 2,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614539572258,
-        "start": 1614539563628
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Login.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Login.vue"
-          ],
-          "duration": 129,
-          "failureMessages": [],
-          "fullName": "Login.vue should display a form",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display a form"
-        },
-        {
-          "ancestorTitles": [
-            "Login.vue"
-          ],
-          "duration": 73,
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"The login is required\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Login.spec.ts:64:31\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Login.vue should display errors for login",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should display errors for login"
-        },
-        {
-          "ancestorTitles": [
-            "Login.vue"
-          ],
-          "duration": 39,
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"The password is required\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Login.spec.ts:99:34\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Login.vue should display errors for password",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should display errors for password"
-        },
-        {
-          "ancestorTitles": [
-            "Login.vue"
-          ],
-          "duration": 62,
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\nExpected number of calls: >= \u001b[32m1\u001b[39m\nReceived number of calls:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Login.spec.ts:142:29\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Login.vue should call the authenticate function on submit",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should call the authenticate function on submit"
-        },
-        {
-          "ancestorTitles": [
-            "Login.vue"
-          ],
-          "duration": 78,
-          "failureMessages": [],
-          "fullName": "Login.vue should display an alert on submission failure",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display an alert on submission failure"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display a form\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 37 |\u001b[39m     expect(wrapper\u001b[33m.\u001b[39mfind(\u001b[32m'input[type=password]'\u001b[39m)\u001b[33m.\u001b[39mexists())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 38 |\u001b[39m     \u001b[90m// The template should display an input of type number for the birth year\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 39 |\u001b[39m     expect(wrapper\u001b[33m.\u001b[39mfind(\u001b[32m'input[type=number]'\u001b[39m)\u001b[33m.\u001b[39mexists())\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 40 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 41 |\u001b[39m     \u001b[90m// The template should display a submit button\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 42 |\u001b[39m     \u001b[36mconst\u001b[39m button \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'button'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:39:57\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display errors for login\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\n    Expected substring: \u001b[32m\"The login is required\"\u001b[39m\n    Received string:    \u001b[31m\"\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 63 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 64 |\u001b[39m     \u001b[90m// The login field should display an error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 65 |\u001b[39m     expect(loginError\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m'The login is required'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    |\u001b[39m                               \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 66 |\u001b[39m     \u001b[90m// The login input should have the CSS class is-invalid when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 67 |\u001b[39m     expect(loginInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 68 |\u001b[39m     \u001b[90m// The login label should have the CSS class text-danger when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:65:31\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display errors for password\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\n    Expected substring: \u001b[32m\"The password is required\"\u001b[39m\n    Received string:    \u001b[31m\"\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  98 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m  99 |\u001b[39m     \u001b[90m// The password field should display an error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 100 |\u001b[39m     expect(passwordError\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m'The password is required'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                  \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 101 |\u001b[39m     \u001b[90m// The password input should have the CSS class is-invalid when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 102 |\u001b[39m     expect(passwordInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 103 |\u001b[39m     \u001b[90m// The password label should have the CSS class text-danger when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:100:34\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display errors for birthYear\u001b[39m\u001b[22m\n\n    Unable to get input[type=number] within: <div class=\"container\"><!--v-if--><form novalidate=\"\"><div class=\"form-group\"><label class=\"\" for=\"login-input\">Login</label><input class=\"form-control\" id=\"login-input\" name=\"login\"><errormessage name=\"login\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"password-input\">Password</label><input class=\"form-control\" type=\"password\" id=\"password-input\" name=\"password\"><errormessage name=\"password\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"birthYear-input\">Birth Year</label><input class=\"form-control\" type=\"birthYear\" id=\"birthYear-input\" name=\"birthYear\"><errormessage name=\"birthYear\" class=\"invalid-feedback\"></errormessage></div><button class=\"btn btn-primary disabled\">Let's go!</button></form></div>\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 117 |\u001b[39m     \u001b[36mconst\u001b[39m wrapper \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m registerWrapper()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 118 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 119 |\u001b[39m     \u001b[36mconst\u001b[39m birthYearInput \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m\u001b[33m<\u001b[39m\u001b[33mHTMLInputElement\u001b[39m\u001b[33m>\u001b[39m(\u001b[32m'input[type=number]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 120 |\u001b[39m     \u001b[90m// the birthYear input should be initialized with the current year minus 18\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 121 |\u001b[39m     \u001b[90m// use `initialValues` on `Form` to do so\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 122 |\u001b[39m     expect(birthYearInput\u001b[33m.\u001b[39melement\u001b[33m.\u001b[39mvalue)\u001b[33m.\u001b[39mtoBe(\u001b[32m`${new Date().getFullYear() - 18}`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat VueWrapper.Object.<anonymous>.VueWrapper.get (\u001b[2mnode_modules/@vue/test-utils/dist/vue-test-utils.cjs.js\u001b[2m:1981:15)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:119:36\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should call the register function on submit\u001b[39m\u001b[22m\n\n    Unable to get input[type=number] within: <div class=\"container\"><!--v-if--><form novalidate=\"\"><div class=\"form-group\"><label class=\"text-danger\" for=\"login-input\">Login</label><input class=\"is-invalid form-control\" id=\"login-input\" name=\"login\"><errormessage name=\"login\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"text-danger\" for=\"password-input\">Password</label><input class=\"is-invalid form-control\" type=\"password\" id=\"password-input\" name=\"password\"><errormessage name=\"password\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"birthYear-input\">Birth Year</label><input class=\"form-control\" type=\"birthYear\" id=\"birthYear-input\" name=\"birthYear\"><errormessage name=\"birthYear\" class=\"invalid-feedback\"></errormessage></div><button class=\"btn btn-primary disabled\">Let's go!</button></form></div>\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 162 |\u001b[39m     \u001b[36mconst\u001b[39m passwordInput \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'input[type=password]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 163 |\u001b[39m     \u001b[36mawait\u001b[39m passwordInput\u001b[33m.\u001b[39msetValue(\u001b[32m'password'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 164 |\u001b[39m     \u001b[36mconst\u001b[39m birthYearInput \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'input[type=number]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 165 |\u001b[39m     \u001b[36mawait\u001b[39m birthYearInput\u001b[33m.\u001b[39msetValue(\u001b[35m1986\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 166 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 167 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat VueWrapper.Object.<anonymous>.VueWrapper.get (\u001b[2mnode_modules/@vue/test-utils/dist/vue-test-utils.cjs.js\u001b[2m:1981:15)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:164:36\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display an alert on submission failure\u001b[39m\u001b[22m\n\n    Unable to get input[type=number] within: <div class=\"container\"><!--v-if--><form novalidate=\"\"><div class=\"form-group\"><label class=\"text-danger\" for=\"login-input\">Login</label><input class=\"is-invalid form-control\" id=\"login-input\" name=\"login\"><errormessage name=\"login\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"text-danger\" for=\"password-input\">Password</label><input class=\"is-invalid form-control\" type=\"password\" id=\"password-input\" name=\"password\"><errormessage name=\"password\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"birthYear-input\">Birth Year</label><input class=\"form-control\" type=\"birthYear\" id=\"birthYear-input\" name=\"birthYear\"><errormessage name=\"birthYear\" class=\"invalid-feedback\"></errormessage></div><button class=\"btn btn-primary disabled\">Let's go!</button></form></div>\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 199 |\u001b[39m     \u001b[36mconst\u001b[39m passwordInput \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'input[type=password]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 200 |\u001b[39m     \u001b[36mawait\u001b[39m passwordInput\u001b[33m.\u001b[39msetValue(\u001b[32m'password'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 201 |\u001b[39m     \u001b[36mconst\u001b[39m birthYearInput \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39m\u001b[36mget\u001b[39m(\u001b[32m'input[type=number]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                    \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 202 |\u001b[39m     \u001b[36mawait\u001b[39m birthYearInput\u001b[33m.\u001b[39msetValue(\u001b[35m1986\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 203 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 204 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat VueWrapper.Object.<anonymous>.VueWrapper.get (\u001b[2mnode_modules/@vue/test-utils/dist/vue-test-utils.cjs.js\u001b[2m:1981:15)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:201:36\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n",
-      "numFailingTests": 6,
-      "numPassingTests": 0,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614539572542,
-        "start": 1614539563667
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Register.vue"
-          ],
-          "duration": 151,
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:39:57\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
-          ],
-          "fullName": "Register.vue should display a form",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should display a form"
-        },
-        {
-          "ancestorTitles": [
-            "Register.vue"
-          ],
-          "duration": 94,
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"The login is required\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:65:31\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Register.vue should display errors for login",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should display errors for login"
-        },
-        {
-          "ancestorTitles": [
-            "Register.vue"
-          ],
-          "duration": 60,
-          "failureMessages": [
-            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"The password is required\"\u001b[39m\nReceived string:    \u001b[31m\"\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:100:34\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Register.vue should display errors for password",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should display errors for password"
-        },
-        {
-          "ancestorTitles": [
-            "Register.vue"
-          ],
-          "duration": 28,
-          "failureMessages": [
-            "Error: Unable to get input[type=number] within: <div class=\"container\"><!--v-if--><form novalidate=\"\"><div class=\"form-group\"><label class=\"\" for=\"login-input\">Login</label><input class=\"form-control\" id=\"login-input\" name=\"login\"><errormessage name=\"login\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"password-input\">Password</label><input class=\"form-control\" type=\"password\" id=\"password-input\" name=\"password\"><errormessage name=\"password\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"birthYear-input\">Birth Year</label><input class=\"form-control\" type=\"birthYear\" id=\"birthYear-input\" name=\"birthYear\"><errormessage name=\"birthYear\" class=\"invalid-feedback\"></errormessage></div><button class=\"btn btn-primary disabled\">Let's go!</button></form></div>\n    at VueWrapper.Object.<anonymous>.VueWrapper.get (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:1981:15)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:119:36\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Register.vue should display errors for birthYear",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should display errors for birthYear"
-        },
-        {
-          "ancestorTitles": [
-            "Register.vue"
-          ],
-          "duration": 107,
-          "failureMessages": [
-            "Error: Unable to get input[type=number] within: <div class=\"container\"><!--v-if--><form novalidate=\"\"><div class=\"form-group\"><label class=\"text-danger\" for=\"login-input\">Login</label><input class=\"is-invalid form-control\" id=\"login-input\" name=\"login\"><errormessage name=\"login\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"text-danger\" for=\"password-input\">Password</label><input class=\"is-invalid form-control\" type=\"password\" id=\"password-input\" name=\"password\"><errormessage name=\"password\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"birthYear-input\">Birth Year</label><input class=\"form-control\" type=\"birthYear\" id=\"birthYear-input\" name=\"birthYear\"><errormessage name=\"birthYear\" class=\"invalid-feedback\"></errormessage></div><button class=\"btn btn-primary disabled\">Let's go!</button></form></div>\n    at VueWrapper.Object.<anonymous>.VueWrapper.get (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:1981:15)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:164:36\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Register.vue should call the register function on submit",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should call the register function on submit"
-        },
-        {
-          "ancestorTitles": [
-            "Register.vue"
-          ],
-          "duration": 69,
-          "failureMessages": [
-            "Error: Unable to get input[type=number] within: <div class=\"container\"><!--v-if--><form novalidate=\"\"><div class=\"form-group\"><label class=\"text-danger\" for=\"login-input\">Login</label><input class=\"is-invalid form-control\" id=\"login-input\" name=\"login\"><errormessage name=\"login\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"text-danger\" for=\"password-input\">Password</label><input class=\"is-invalid form-control\" type=\"password\" id=\"password-input\" name=\"password\"><errormessage name=\"password\" class=\"invalid-feedback\"></errormessage></div><div class=\"form-group\"><label class=\"\" for=\"birthYear-input\">Birth Year</label><input class=\"form-control\" type=\"birthYear\" id=\"birthYear-input\" name=\"birthYear\"><errormessage name=\"birthYear\" class=\"invalid-feedback\"></errormessage></div><button class=\"btn btn-primary disabled\">Let's go!</button></form></div>\n    at VueWrapper.Object.<anonymous>.VueWrapper.get (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\@vue\\test-utils\\dist\\vue-test-utils.cjs.js:1981:15)\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:201:36\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
-          ],
-          "fullName": "Register.vue should display an alert on submission failure",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "failed",
-          "title": "should display an alert on submission failure"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 3,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614539573399,
-        "start": 1614539572372
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Home.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Home.vue"
-          ],
-          "duration": 22,
-          "failureMessages": [],
-          "fullName": "Home.vue should display every race name in a title",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display every race name in a title"
-        },
-        {
-          "ancestorTitles": [
-            "Home.vue"
-          ],
-          "duration": 16,
-          "failureMessages": [],
-          "fullName": "Home.vue display a link to go the login",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "display a link to go the login"
-        },
-        {
-          "ancestorTitles": [
-            "Home.vue"
-          ],
-          "duration": 13,
-          "failureMessages": [],
-          "fullName": "Home.vue display a link to go the register page",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "display a link to go the register page"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614539573800,
-        "start": 1614539572482
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Races.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Races.vue"
-          ],
-          "duration": 66,
-          "failureMessages": [],
-          "fullName": "Races.vue should display every race name in a title",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display every race name in a title"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 1,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614539574076,
-        "start": 1614539572745
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\utils\\FromNow.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "FromNow"
-          ],
-          "duration": 8,
-          "failureMessages": [],
-          "fullName": "FromNow should transform a date",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should transform a date"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 2,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614539574566,
-        "start": 1614539573521
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\composables\\UserService.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "useUserService"
-          ],
-          "duration": 10,
-          "failureMessages": [],
-          "fullName": "useUserService should register a user",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should register a user"
-        },
-        {
-          "ancestorTitles": [
-            "useUserService"
-          ],
-          "duration": 3,
-          "failureMessages": [],
-          "fullName": "useUserService should authenticate a user",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should authenticate a user"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
-      "failureMessage": null,
-      "numFailingTests": 0,
-      "numPassingTests": 2,
-      "numPendingTests": 0,
-      "numTodoTests": 0,
-      "perfStats": {
-        "end": 1614539574976,
-        "start": 1614539573960
-      },
-      "snapshot": {
-        "added": 0,
-        "fileDeleted": false,
-        "matched": 0,
-        "unchecked": 0,
-        "unmatched": 0,
-        "updated": 0,
-        "uncheckedKeys": []
-      },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Pony.spec.ts",
-      "testResults": [
-        {
-          "ancestorTitles": [
-            "Pony.vue"
-          ],
-          "duration": 27,
-          "failureMessages": [],
-          "fullName": "Pony.vue should display an image and a legend",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should display an image and a legend"
-        },
-        {
-          "ancestorTitles": [
-            "Pony.vue"
-          ],
-          "duration": 21,
-          "failureMessages": [],
-          "fullName": "Pony.vue should emit an event on click",
-          "location": null,
-          "numPassingAsserts": 0,
-          "status": "passed",
-          "title": "should emit an event on click"
-        }
-      ],
-      "skipped": false,
-      "leaks": false
-    },
-    {
       "failureMessage": null,
       "numFailingTests": 0,
       "numPassingTests": 5,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614539575311,
-        "start": 1614539574183
+        "end": 1614606926819,
+        "start": 1614606923836
       },
       "snapshot": {
         "added": 0,
@@ -552,7 +119,7 @@
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 45,
+          "duration": 17,
           "failureMessages": [],
           "fullName": "Navbar.vue should have a `navbarCollapsed` field",
           "location": null,
@@ -564,7 +131,7 @@
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 16,
+          "duration": 17,
           "failureMessages": [],
           "fullName": "Navbar.vue should have a `toggleNavbar` function",
           "location": null,
@@ -576,7 +143,7 @@
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 21,
+          "duration": 29,
           "failureMessages": [],
           "fullName": "Navbar.vue should toggle the class on click",
           "location": null,
@@ -588,7 +155,7 @@
           "ancestorTitles": [
             "Navbar.vue"
           ],
-          "duration": 44,
+          "duration": 13,
           "failureMessages": [],
           "fullName": "Navbar.vue should display a link to the home page",
           "location": null,
@@ -615,12 +182,73 @@
     {
       "failureMessage": null,
       "numFailingTests": 0,
+      "numPassingTests": 3,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606928502,
+        "start": 1614606926959
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Home.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 26,
+          "failureMessages": [],
+          "fullName": "Home.vue should display every race name in a title",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display every race name in a title"
+        },
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 11,
+          "failureMessages": [],
+          "fullName": "Home.vue display a link to go the login",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "display a link to go the login"
+        },
+        {
+          "ancestorTitles": [
+            "Home.vue"
+          ],
+          "duration": 30,
+          "failureMessages": [],
+          "fullName": "Home.vue display a link to go the register page",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "display a link to go the register page"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
       "numPassingTests": 1,
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614539576129,
-        "start": 1614539574682
+        "end": 1614606930397,
+        "start": 1614606928618
       },
       "snapshot": {
         "added": 0,
@@ -637,7 +265,7 @@
           "ancestorTitles": [
             "Race.vue"
           ],
-          "duration": 46,
+          "duration": 71,
           "failureMessages": [],
           "fullName": "Race.vue should display a race name and its ponies",
           "location": null,
@@ -656,8 +284,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614539576230,
-        "start": 1614539575104
+        "end": 1614606932074,
+        "start": 1614606930546
       },
       "snapshot": {
         "added": 0,
@@ -668,19 +296,19 @@
         "updated": 0,
         "uncheckedKeys": []
       },
-      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\composables\\RaceService.spec.ts",
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Races.spec.ts",
       "testResults": [
         {
           "ancestorTitles": [
-            "useRaceService"
+            "Races.vue"
           ],
-          "duration": 8,
+          "duration": 76,
           "failureMessages": [],
-          "fullName": "useRaceService should list races",
+          "fullName": "Races.vue should display every race name in a title",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
-          "title": "should list races"
+          "title": "should display every race name in a title"
         }
       ],
       "skipped": false,
@@ -693,8 +321,8 @@
       "numPendingTests": 0,
       "numTodoTests": 0,
       "perfStats": {
-        "end": 1614539576537,
-        "start": 1614539575457
+        "end": 1614606935054,
+        "start": 1614606932205
       },
       "snapshot": {
         "added": 0,
@@ -711,7 +339,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 31,
+          "duration": 69,
           "failureMessages": [],
           "fullName": "Alert.vue should display the alert content",
           "location": null,
@@ -723,7 +351,7 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 11,
+          "duration": 19,
           "failureMessages": [],
           "fullName": "Alert.vue should have the correct CSS class",
           "location": null,
@@ -735,13 +363,422 @@
           "ancestorTitles": [
             "Alert.vue"
           ],
-          "duration": 41,
+          "duration": 18,
           "failureMessages": [],
           "fullName": "Alert.vue should be dismissible",
           "location": null,
           "numPassingAsserts": 0,
           "status": "passed",
           "title": "should be dismissible"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606935685,
+        "start": 1614606935167
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\composables\\UserService.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "useUserService"
+          ],
+          "duration": 23,
+          "failureMessages": [],
+          "fullName": "useUserService should register a user",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should register a user"
+        },
+        {
+          "ancestorTitles": [
+            "useUserService"
+          ],
+          "duration": 2,
+          "failureMessages": [],
+          "fullName": "useUserService should authenticate a user",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should authenticate a user"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606936750,
+        "start": 1614606935881
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\utils\\FromNow.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "FromNow"
+          ],
+          "duration": 2,
+          "failureMessages": [],
+          "fullName": "FromNow should transform a date",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should transform a date"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mLogin.vue › should call the authenticate function on submit\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\n    Expected number of calls: >= \u001b[32m1\u001b[39m\n    Received number of calls:    \u001b[31m0\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 140 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 141 |\u001b[39m     \u001b[90m// It should redirect to home after a submission success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 142 |\u001b[39m     expect(mockRouter\u001b[33m.\u001b[39mpush)\u001b[33m.\u001b[39mtoHaveBeenCalled()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 143 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 144 |\u001b[39m     \u001b[36mconst\u001b[39m alert \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39mfindComponent(\u001b[33mAlert\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 145 |\u001b[39m     \u001b[90m// An alert should not be displayed on login success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Login.spec.ts\u001b[39m\u001b[0m\u001b[2m:142:29\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n",
+      "numFailingTests": 1,
+      "numPassingTests": 4,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606937285,
+        "start": 1614606913491
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Login.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Login.vue"
+          ],
+          "duration": 113,
+          "failureMessages": [],
+          "fullName": "Login.vue should display a form",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display a form"
+        },
+        {
+          "ancestorTitles": [
+            "Login.vue"
+          ],
+          "duration": 101,
+          "failureMessages": [],
+          "fullName": "Login.vue should display errors for login",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for login"
+        },
+        {
+          "ancestorTitles": [
+            "Login.vue"
+          ],
+          "duration": 633,
+          "failureMessages": [],
+          "fullName": "Login.vue should display errors for password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for password"
+        },
+        {
+          "ancestorTitles": [
+            "Login.vue"
+          ],
+          "duration": 96,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\nExpected number of calls: >= \u001b[32m1\u001b[39m\nReceived number of calls:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Login.spec.ts:142:29\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
+          ],
+          "fullName": "Login.vue should call the authenticate function on submit",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should call the authenticate function on submit"
+        },
+        {
+          "ancestorTitles": [
+            "Login.vue"
+          ],
+          "duration": 128,
+          "failureMessages": [],
+          "fullName": "Login.vue should display an alert on submission failure",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display an alert on submission failure"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606937900,
+        "start": 1614606936919
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\validators.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "isOldEnough"
+          ],
+          "duration": 4,
+          "failureMessages": [],
+          "fullName": "isOldEnough should validate if a user is old enough",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should validate if a user is old enough"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606938688,
+        "start": 1614606937473
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\components\\Pony.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Pony.vue"
+          ],
+          "duration": 36,
+          "failureMessages": [],
+          "fullName": "Pony.vue should display an image and a legend",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display an image and a legend"
+        },
+        {
+          "ancestorTitles": [
+            "Pony.vue"
+          ],
+          "duration": 10,
+          "failureMessages": [],
+          "fullName": "Pony.vue should emit an event on click",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should emit an event on click"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": null,
+      "numFailingTests": 0,
+      "numPassingTests": 1,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606938999,
+        "start": 1614606938015
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\composables\\RaceService.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "useRaceService"
+          ],
+          "duration": 5,
+          "failureMessages": [],
+          "fullName": "useRaceService should list races",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should list races"
+        }
+      ],
+      "skipped": false,
+      "leaks": false
+    },
+    {
+      "failureMessage": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should display errors for birthYear\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\n    Expected substring: \u001b[32m\"You're not old enough to bet on ponies\"\u001b[39m\n    Received string:    \u001b[31m\"You’re not old enough to bet on ponies\"\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 209 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 210 |\u001b[39m     \u001b[90m// The birthYear field should display an error if the user is not old enough\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 211 |\u001b[39m     expect(birthYearError\u001b[33m.\u001b[39mtext())\u001b[33m.\u001b[39mtoContain(\u001b[32m`You're not old enough to bet on ponies`\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                   \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 212 |\u001b[39m     \u001b[90m// The birthYear input should have the CSS class is-invalid when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 213 |\u001b[39m     expect(birthYearInput\u001b[33m.\u001b[39mclasses())\u001b[33m.\u001b[39mtoContain(\u001b[32m'is-invalid'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 214 |\u001b[39m     \u001b[90m// The birthYear label should have the CSS class text-danger when in error\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:211:35\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n\n\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mRegister.vue › should call the register function on submit\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\n    Expected number of calls: >= \u001b[32m1\u001b[39m\n    Received number of calls:    \u001b[31m0\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 258 |\u001b[39m     \u001b[36mawait\u001b[39m flushPromises()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 259 |\u001b[39m     \u001b[90m// It should redirect to home after a submission success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 260 |\u001b[39m     expect(mockRouter\u001b[33m.\u001b[39mpush)\u001b[33m.\u001b[39mtoHaveBeenCalled()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                             \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 261 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 262 |\u001b[39m     \u001b[36mconst\u001b[39m alert \u001b[33m=\u001b[39m wrapper\u001b[33m.\u001b[39mfindComponent(\u001b[33mAlert\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 263 |\u001b[39m     \u001b[90m// An alert should not be displayed on registration success\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat \u001b[2m\u001b[0m\u001b[36mtests/unit/Views/Register.spec.ts\u001b[39m\u001b[0m\u001b[2m:260:29\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat step (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:141:27)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.next (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:122:57)\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat fulfilled (\u001b[2mnode_modules/tslib/tslib.js\u001b[2m:112:62)\u001b[2m\u001b[22m\n",
+      "numFailingTests": 2,
+      "numPassingTests": 5,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "perfStats": {
+        "end": 1614606939019,
+        "start": 1614606913457
+      },
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 240,
+          "failureMessages": [],
+          "fullName": "Register.vue should display a form",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display a form"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 208,
+          "failureMessages": [],
+          "fullName": "Register.vue should display errors for login",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for login"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 104,
+          "failureMessages": [],
+          "fullName": "Register.vue should display errors for password",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for password"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 209,
+          "failureMessages": [],
+          "fullName": "Register.vue should display errors for password confirmation",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display errors for password confirmation"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 124,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContain\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // indexOf\u001b[22m\n\nExpected substring: \u001b[32m\"You're not old enough to bet on ponies\"\u001b[39m\nReceived string:    \u001b[31m\"You’re not old enough to bet on ponies\"\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:211:35\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
+          ],
+          "fullName": "Register.vue should display errors for birthYear",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should display errors for birthYear"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 146,
+          "failureMessages": [
+            "Error: \u001b[2mexpect(\u001b[22m\u001b[31mjest.fn()\u001b[39m\u001b[2m).\u001b[22mtoHaveBeenCalled\u001b[2m()\u001b[22m\n\nExpected number of calls: >= \u001b[32m1\u001b[39m\nReceived number of calls:    \u001b[31m0\u001b[39m\n    at C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\tests\\unit\\Views\\Register.spec.ts:260:29\n    at step (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:141:27)\n    at Object.next (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:122:57)\n    at fulfilled (C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\node_modules\\tslib\\tslib.js:112:62)"
+          ],
+          "fullName": "Register.vue should call the register function on submit",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "failed",
+          "title": "should call the register function on submit"
+        },
+        {
+          "ancestorTitles": [
+            "Register.vue"
+          ],
+          "duration": 127,
+          "failureMessages": [],
+          "fullName": "Register.vue should display an alert on submission failure",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "should display an alert on submission failure"
         }
       ],
       "skipped": false,
@@ -1946,300 +1983,22 @@
       "s": {
         "0": 4,
         "1": 4,
-        "2": 4,
-        "3": 4,
-        "4": 5,
-        "5": 4,
-        "6": 2,
-        "7": 4,
-        "8": 5,
-        "9": 4
-      },
-      "f": {
-        "0": 4,
-        "1": 5,
-        "2": 2,
-        "3": 5
-      },
-      "b": {}
-    },
-    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Login.vue": {
-      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Login.vue",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 33,
-            "column": 0
-          },
-          "end": {
-            "line": 33,
-            "column": null
-          }
-        },
-        "1": {
-          "start": {
-            "line": 34,
-            "column": 0
-          },
-          "end": {
-            "line": 34,
-            "column": null
-          }
-        },
-        "2": {
-          "start": {
-            "line": 35,
-            "column": 0
-          },
-          "end": {
-            "line": 35,
-            "column": null
-          }
-        },
-        "3": {
-          "start": {
-            "line": 38,
-            "column": 0
-          },
-          "end": {
-            "line": 38,
-            "column": null
-          }
-        },
-        "4": {
-          "start": {
-            "line": 39,
-            "column": 0
-          },
-          "end": {
-            "line": 39,
-            "column": null
-          }
-        },
-        "5": {
-          "start": {
-            "line": 40,
-            "column": 0
-          },
-          "end": {
-            "line": 40,
-            "column": null
-          }
-        },
-        "6": {
-          "start": {
-            "line": 42,
-            "column": 0
-          },
-          "end": {
-            "line": 42,
-            "column": 15
-          }
-        },
-        "7": {
-          "start": {
-            "line": 52,
-            "column": 29
-          },
-          "end": {
-            "line": 52,
-            "column": 62
-          }
-        },
-        "8": {
-          "start": {
-            "line": 53,
-            "column": 24
-          },
-          "end": {
-            "line": 53,
-            "column": null
-          }
-        },
-        "9": {
-          "start": {
-            "line": 54,
-            "column": 33
-          },
-          "end": {
-            "line": 54,
-            "column": 46
-          }
-        },
-        "10": {
-          "start": {
-            "line": 58,
-            "column": 8
-          },
-          "end": {
-            "line": 58,
-            "column": 25
-          }
-        },
-        "11": {
-          "start": {
-            "line": 58,
-            "column": 33
-          },
-          "end": {
-            "line": 58,
-            "column": 39
-          }
-        },
-        "12": {
-          "start": {
-            "line": 59,
-            "column": 8
-          },
-          "end": {
-            "line": 61,
-            "column": null
-          }
-        },
-        "13": {
-          "start": {
-            "line": 60,
-            "column": 10
-          },
-          "end": {
-            "line": 60,
-            "column": 17
-          }
-        },
-        "14": {
-          "start": {
-            "line": 63,
-            "column": 8
-          },
-          "end": {
-            "line": 63,
-            "column": 28
-          }
-        },
-        "15": {
-          "start": {
-            "line": 67,
-            "column": 4
-          },
-          "end": {
-            "line": 67,
-            "column": 11
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": {
-            "start": {
-              "line": 51,
-              "column": 2
-            },
-            "end": {
-              "line": 51,
-              "column": 7
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 51,
-              "column": 2
-            },
-            "end": {
-              "line": 68,
-              "column": null
-            }
-          }
-        },
-        "1": {
-          "name": "authenticate",
-          "decl": {
-            "start": {
-              "line": 56,
-              "column": 19
-            },
-            "end": {
-              "line": 56,
-              "column": 32
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 56,
-              "column": 63
-            },
-            "end": {
-              "line": 65,
-              "column": null
-            }
-          }
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": {
-            "start": {
-              "line": 59,
-              "column": 8
-            },
-            "end": {
-              "line": 61,
-              "column": null
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 59,
-                "column": 8
-              },
-              "end": {
-                "line": 61,
-                "column": null
-              }
-            },
-            {
-              "start": {
-                "line": 59,
-                "column": 8
-              },
-              "end": {
-                "line": 61,
-                "column": null
-              }
-            }
-          ]
-        }
-      },
-      "s": {
-        "0": 3,
-        "1": 3,
-        "2": 3,
-        "3": 3,
-        "4": 3,
-        "5": 3,
+        "2": 5,
+        "3": 5,
+        "4": 6,
+        "5": 5,
         "6": 3,
         "7": 5,
-        "8": 5,
-        "9": 5,
-        "10": 4,
-        "11": 2,
-        "12": 1,
-        "13": 1,
-        "14": 1,
-        "15": 5
+        "8": 6,
+        "9": 5
       },
       "f": {
         "0": 5,
-        "1": 2
+        "1": 6,
+        "2": 3,
+        "3": 6
       },
-      "b": {
-        "0": [
-          1,
-          0
-        ]
-      }
+      "b": {}
     },
     "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Home.vue": {
       "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Home.vue",
@@ -2273,284 +2032,6 @@
       },
       "f": {},
       "b": {}
-    },
-    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Register.vue": {
-      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Register.vue",
-      "statementMap": {
-        "0": {
-          "start": {
-            "line": 46,
-            "column": 0
-          },
-          "end": {
-            "line": 46,
-            "column": null
-          }
-        },
-        "1": {
-          "start": {
-            "line": 48,
-            "column": 0
-          },
-          "end": {
-            "line": 48,
-            "column": null
-          }
-        },
-        "2": {
-          "start": {
-            "line": 50,
-            "column": 0
-          },
-          "end": {
-            "line": 50,
-            "column": null
-          }
-        },
-        "3": {
-          "start": {
-            "line": 51,
-            "column": 0
-          },
-          "end": {
-            "line": 51,
-            "column": null
-          }
-        },
-        "4": {
-          "start": {
-            "line": 52,
-            "column": 0
-          },
-          "end": {
-            "line": 52,
-            "column": null
-          }
-        },
-        "5": {
-          "start": {
-            "line": 54,
-            "column": 0
-          },
-          "end": {
-            "line": 54,
-            "column": 15
-          }
-        },
-        "6": {
-          "start": {
-            "line": 64,
-            "column": 28
-          },
-          "end": {
-            "line": 64,
-            "column": 61
-          }
-        },
-        "7": {
-          "start": {
-            "line": 65,
-            "column": 24
-          },
-          "end": {
-            "line": 65,
-            "column": null
-          }
-        },
-        "8": {
-          "start": {
-            "line": 66,
-            "column": 31
-          },
-          "end": {
-            "line": 66,
-            "column": 44
-          }
-        },
-        "9": {
-          "start": {
-            "line": 67,
-            "column": 26
-          },
-          "end": {
-            "line": 67,
-            "column": 28
-          }
-        },
-        "10": {
-          "start": {
-            "line": 71,
-            "column": 8
-          },
-          "end": {
-            "line": 71,
-            "column": 24
-          }
-        },
-        "11": {
-          "start": {
-            "line": 71,
-            "column": 32
-          },
-          "end": {
-            "line": 71,
-            "column": 38
-          }
-        },
-        "12": {
-          "start": {
-            "line": 72,
-            "column": 8
-          },
-          "end": {
-            "line": 74,
-            "column": null
-          }
-        },
-        "13": {
-          "start": {
-            "line": 73,
-            "column": 10
-          },
-          "end": {
-            "line": 73,
-            "column": 17
-          }
-        },
-        "14": {
-          "start": {
-            "line": 76,
-            "column": 8
-          },
-          "end": {
-            "line": 76,
-            "column": 26
-          }
-        },
-        "15": {
-          "start": {
-            "line": 80,
-            "column": 4
-          },
-          "end": {
-            "line": 80,
-            "column": 11
-          }
-        }
-      },
-      "fnMap": {
-        "0": {
-          "name": "(anonymous_0)",
-          "decl": {
-            "start": {
-              "line": 63,
-              "column": 2
-            },
-            "end": {
-              "line": 63,
-              "column": 7
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 63,
-              "column": 2
-            },
-            "end": {
-              "line": 81,
-              "column": null
-            }
-          }
-        },
-        "1": {
-          "name": "register",
-          "decl": {
-            "start": {
-              "line": 69,
-              "column": 19
-            },
-            "end": {
-              "line": 69,
-              "column": 28
-            }
-          },
-          "loc": {
-            "start": {
-              "line": 69,
-              "column": 58
-            },
-            "end": {
-              "line": 78,
-              "column": null
-            }
-          }
-        }
-      },
-      "branchMap": {
-        "0": {
-          "loc": {
-            "start": {
-              "line": 72,
-              "column": 8
-            },
-            "end": {
-              "line": 74,
-              "column": null
-            }
-          },
-          "type": "if",
-          "locations": [
-            {
-              "start": {
-                "line": 72,
-                "column": 8
-              },
-              "end": {
-                "line": 74,
-                "column": null
-              }
-            },
-            {
-              "start": {
-                "line": 72,
-                "column": 8
-              },
-              "end": {
-                "line": 74,
-                "column": null
-              }
-            }
-          ]
-        }
-      },
-      "s": {
-        "0": 3,
-        "1": 3,
-        "2": 3,
-        "3": 3,
-        "4": 3,
-        "5": 3,
-        "6": 6,
-        "7": 6,
-        "8": 6,
-        "9": 6,
-        "10": 0,
-        "11": 0,
-        "12": 0,
-        "13": 0,
-        "14": 0,
-        "15": 6
-      },
-      "f": {
-        "0": 6,
-        "1": 0
-      },
-      "b": {
-        "0": [
-          0,
-          0
-        ]
-      }
     },
     "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\composables\\UserService.ts": {
       "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\composables\\UserService.ts",
@@ -2802,6 +2283,573 @@
         ],
         "1": [
           1
+        ]
+      }
+    },
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Login.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Login.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "line": 33,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 34,
+            "column": 0
+          },
+          "end": {
+            "line": 34,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 35,
+            "column": 0
+          },
+          "end": {
+            "line": 35,
+            "column": null
+          }
+        },
+        "3": {
+          "start": {
+            "line": 38,
+            "column": 0
+          },
+          "end": {
+            "line": 38,
+            "column": null
+          }
+        },
+        "4": {
+          "start": {
+            "line": 39,
+            "column": 0
+          },
+          "end": {
+            "line": 39,
+            "column": null
+          }
+        },
+        "5": {
+          "start": {
+            "line": 40,
+            "column": 0
+          },
+          "end": {
+            "line": 40,
+            "column": null
+          }
+        },
+        "6": {
+          "start": {
+            "line": 42,
+            "column": 0
+          },
+          "end": {
+            "line": 42,
+            "column": 15
+          }
+        },
+        "7": {
+          "start": {
+            "line": 53,
+            "column": 29
+          },
+          "end": {
+            "line": 53,
+            "column": 62
+          }
+        },
+        "8": {
+          "start": {
+            "line": 54,
+            "column": 24
+          },
+          "end": {
+            "line": 54,
+            "column": null
+          }
+        },
+        "9": {
+          "start": {
+            "line": 55,
+            "column": 33
+          },
+          "end": {
+            "line": 55,
+            "column": 46
+          }
+        },
+        "10": {
+          "start": {
+            "line": 59,
+            "column": 8
+          },
+          "end": {
+            "line": 59,
+            "column": 25
+          }
+        },
+        "11": {
+          "start": {
+            "line": 59,
+            "column": 33
+          },
+          "end": {
+            "line": 59,
+            "column": 39
+          }
+        },
+        "12": {
+          "start": {
+            "line": 60,
+            "column": 8
+          },
+          "end": {
+            "line": 62,
+            "column": null
+          }
+        },
+        "13": {
+          "start": {
+            "line": 61,
+            "column": 10
+          },
+          "end": {
+            "line": 61,
+            "column": 17
+          }
+        },
+        "14": {
+          "start": {
+            "line": 64,
+            "column": 8
+          },
+          "end": {
+            "line": 64,
+            "column": 28
+          }
+        },
+        "15": {
+          "start": {
+            "line": 68,
+            "column": 4
+          },
+          "end": {
+            "line": 68,
+            "column": 11
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 52,
+              "column": 2
+            },
+            "end": {
+              "line": 52,
+              "column": 7
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 52,
+              "column": 2
+            },
+            "end": {
+              "line": 69,
+              "column": null
+            }
+          }
+        },
+        "1": {
+          "name": "authenticate",
+          "decl": {
+            "start": {
+              "line": 57,
+              "column": 19
+            },
+            "end": {
+              "line": 57,
+              "column": 32
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 57,
+              "column": 63
+            },
+            "end": {
+              "line": 66,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 60,
+              "column": 8
+            },
+            "end": {
+              "line": 62,
+              "column": null
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 60,
+                "column": 8
+              },
+              "end": {
+                "line": 62,
+                "column": null
+              }
+            },
+            {
+              "start": {
+                "line": 60,
+                "column": 8
+              },
+              "end": {
+                "line": 62,
+                "column": null
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 5,
+        "8": 5,
+        "9": 5,
+        "10": 4,
+        "11": 2,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 5
+      },
+      "f": {
+        "0": 5,
+        "1": 2
+      },
+      "b": {
+        "0": [
+          1,
+          0
+        ]
+      }
+    },
+    "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Register.vue": {
+      "path": "C:\\Users\\Nasir\\Desktop\\Tahir\\ponyracer\\src\\Views\\Register.vue",
+      "statementMap": {
+        "0": {
+          "start": {
+            "line": 59,
+            "column": 0
+          },
+          "end": {
+            "line": 59,
+            "column": null
+          }
+        },
+        "1": {
+          "start": {
+            "line": 61,
+            "column": 0
+          },
+          "end": {
+            "line": 61,
+            "column": null
+          }
+        },
+        "2": {
+          "start": {
+            "line": 63,
+            "column": 0
+          },
+          "end": {
+            "line": 63,
+            "column": null
+          }
+        },
+        "3": {
+          "start": {
+            "line": 64,
+            "column": 0
+          },
+          "end": {
+            "line": 64,
+            "column": null
+          }
+        },
+        "4": {
+          "start": {
+            "line": 65,
+            "column": 0
+          },
+          "end": {
+            "line": 65,
+            "column": null
+          }
+        },
+        "5": {
+          "start": {
+            "line": 66,
+            "column": 0
+          },
+          "end": {
+            "line": 66,
+            "column": null
+          }
+        },
+        "6": {
+          "start": {
+            "line": 68,
+            "column": 0
+          },
+          "end": {
+            "line": 68,
+            "column": 15
+          }
+        },
+        "7": {
+          "start": {
+            "line": 79,
+            "column": 28
+          },
+          "end": {
+            "line": 79,
+            "column": 61
+          }
+        },
+        "8": {
+          "start": {
+            "line": 80,
+            "column": 24
+          },
+          "end": {
+            "line": 80,
+            "column": null
+          }
+        },
+        "9": {
+          "start": {
+            "line": 81,
+            "column": 31
+          },
+          "end": {
+            "line": 81,
+            "column": 44
+          }
+        },
+        "10": {
+          "start": {
+            "line": 82,
+            "column": 26
+          },
+          "end": {
+            "line": 82,
+            "column": 28
+          }
+        },
+        "11": {
+          "start": {
+            "line": 86,
+            "column": 8
+          },
+          "end": {
+            "line": 86,
+            "column": 24
+          }
+        },
+        "12": {
+          "start": {
+            "line": 86,
+            "column": 32
+          },
+          "end": {
+            "line": 86,
+            "column": 38
+          }
+        },
+        "13": {
+          "start": {
+            "line": 87,
+            "column": 8
+          },
+          "end": {
+            "line": 89,
+            "column": null
+          }
+        },
+        "14": {
+          "start": {
+            "line": 88,
+            "column": 10
+          },
+          "end": {
+            "line": 88,
+            "column": 17
+          }
+        },
+        "15": {
+          "start": {
+            "line": 91,
+            "column": 8
+          },
+          "end": {
+            "line": 91,
+            "column": 26
+          }
+        },
+        "16": {
+          "start": {
+            "line": 95,
+            "column": 4
+          },
+          "end": {
+            "line": 95,
+            "column": 11
+          }
+        }
+      },
+      "fnMap": {
+        "0": {
+          "name": "(anonymous_0)",
+          "decl": {
+            "start": {
+              "line": 78,
+              "column": 2
+            },
+            "end": {
+              "line": 78,
+              "column": 7
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 78,
+              "column": 2
+            },
+            "end": {
+              "line": 96,
+              "column": null
+            }
+          }
+        },
+        "1": {
+          "name": "register",
+          "decl": {
+            "start": {
+              "line": 84,
+              "column": 19
+            },
+            "end": {
+              "line": 84,
+              "column": 28
+            }
+          },
+          "loc": {
+            "start": {
+              "line": 84,
+              "column": 58
+            },
+            "end": {
+              "line": 93,
+              "column": null
+            }
+          }
+        }
+      },
+      "branchMap": {
+        "0": {
+          "loc": {
+            "start": {
+              "line": 87,
+              "column": 8
+            },
+            "end": {
+              "line": 89,
+              "column": null
+            }
+          },
+          "type": "if",
+          "locations": [
+            {
+              "start": {
+                "line": 87,
+                "column": 8
+              },
+              "end": {
+                "line": 89,
+                "column": null
+              }
+            },
+            {
+              "start": {
+                "line": 87,
+                "column": 8
+              },
+              "end": {
+                "line": 89,
+                "column": null
+              }
+            }
+          ]
+        }
+      },
+      "s": {
+        "0": 3,
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 7,
+        "8": 7,
+        "9": 7,
+        "10": 7,
+        "11": 4,
+        "12": 2,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 7
+      },
+      "f": {
+        "0": 7,
+        "1": 2
+      },
+      "b": {
+        "0": [
+          1,
+          0
         ]
       }
     }

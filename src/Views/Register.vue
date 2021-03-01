@@ -1,10 +1,10 @@
 <template>
   <div class="container">
     <Alert :variant="danger" v-if="registrationFailed" class="mt-4" @dismissed="registrationFailed = false" dismissible
-      >Nope, try again</Alert
+      >Try again with another login</Alert
     >
     <Form @submit="register($event)" v-slot="{ meta: formMeta }" :initialValues="initialValues">
-      <Field name="login" rules="required" v-slot="{ field, meta }">
+      <Field name="login" rules="required|min:3" v-slot="{ field, meta }">
         <div class="form-group">
           <label :class="{ 'text-danger': meta.dirty && !meta.valid }" for="login-input">Login</label>
           <input :class="{ 'is-invalid': meta.dirty && !meta.valid }" id="login-input" class="form-control" v-bind="field" />
@@ -24,12 +24,25 @@
           <ErrorMessage name="password" class="invalid-feedback" />
         </div>
       </Field>
-      <Field name="birthYear" rules="required" v-slot="{ field, meta }">
+      <Field name="confirmPassword" :label="'password confirmation'" rules="required|confirmed:@password" v-slot="{ field, meta }">
+        <div class="form-group">
+          <label :class="{ 'text-danger': meta.dirty && !meta.valid }" for="confirmPassword-input">Password confirmation</label>
+          <input
+            :class="{ 'is-invalid': meta.dirty && !meta.valid }"
+            type="password"
+            id="password-input"
+            class="form-control"
+            v-bind="field"
+          />
+          <ErrorMessage name="confirmPassword" class="invalid-feedback" />
+        </div>
+      </Field>
+      <Field name="birthYear" :label="'birth year'" rules="required|min_value:1900|isOldEnough" v-slot="{ field, meta }">
         <div class="form-group">
           <label :class="{ 'text-danger': meta.dirty && !meta.valid }" for="birthYear-input">Birth Year</label>
           <input
             :class="{ 'is-invalid': meta.dirty && !meta.valid }"
-            type="birthYear"
+            type="number"
             id="birthYear-input"
             class="form-control"
             v-bind="field"
@@ -48,8 +61,9 @@ import { UserModel } from '@/models/UserModel';
 import { useUserService } from '@/composables/UserService';
 import { RegistrationResponse } from '@/models/RegistrationResponse';
 import Alert from '@/components/Alert.vue';
-import { Form, Field } from 'vee-validate';
+import { Form, Field, ErrorMessage } from 'vee-validate';
 import router from '@/router';
+import '@/forms';
 
 export default defineComponent({
   name: 'Register',
@@ -57,7 +71,8 @@ export default defineComponent({
   components: {
     Alert,
     Form,
-    Field
+    Field,
+    ErrorMessage
   },
 
   setup() {
