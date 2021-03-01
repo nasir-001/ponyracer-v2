@@ -16,7 +16,7 @@ configure({
       min_value: 'The {field} must be 0:{min} or more.',
       min: 'The {field} must be at least 0:{min} characters.',
       confirmed: context => `The ${context.field} does not match.`,
-      isOldEnough: 'You’re not old enough to bet on ponies'
+      isOldEnough: `You’re not old enough to bet on ponies`
     }
   })
 });

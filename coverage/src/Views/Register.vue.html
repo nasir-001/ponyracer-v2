@@ -152,11 +152,7 @@
 <a name='L94'></a><a href='#L94'>94</a>
 <a name='L95'></a><a href='#L95'>95</a>
 <a name='L96'></a><a href='#L96'>96</a>
-<a name='L97'></a><a href='#L97'>97</a>
-<a name='L98'></a><a href='#L98'>98</a>
-<a name='L99'></a><a href='#L99'>99</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L97'></a><a href='#L97'>97</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -253,60 +249,58 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;template&gt;
-  &lt;div class="container"&gt;
-    &lt;Alert :variant="danger" v-if="registrationFailed" class="mt-4" @dismissed="registrationFailed = false" dismissible
-      &gt;Try again with another login&lt;/Alert
-    &gt;
-    &lt;Form @submit="register($event)" v-slot="{ meta: formMeta }" :initialValues="initialValues"&gt;
-      &lt;Field name="login" rules="required|min:3" v-slot="{ field, meta }"&gt;
-        &lt;div class="form-group"&gt;
-          &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="login-input"&gt;Login&lt;/label&gt;
-          &lt;input :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }" id="login-input" class="form-control" v-bind="field" /&gt;
-          &lt;ErrorMessage name="login" class="invalid-feedback" /&gt;
-        &lt;/div&gt;
-      &lt;/Field&gt;
-      &lt;Field name="password" rules="required" v-slot="{ field, meta }"&gt;
-        &lt;div class="form-group"&gt;
-          &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="password-input"&gt;Password&lt;/label&gt;
-          &lt;input
-            :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }"
-            type="password"
-            id="password-input"
-            class="form-control"
-            v-bind="field"
-          /&gt;
-          &lt;ErrorMessage name="password" class="invalid-feedback" /&gt;
-        &lt;/div&gt;
-      &lt;/Field&gt;
-      &lt;Field name="confirmPassword" :label="'password confirmation'" rules="required|confirmed:@password" v-slot="{ field, meta }"&gt;
-        &lt;div class="form-group"&gt;
-          &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="confirmPassword-input"&gt;Password confirmation&lt;/label&gt;
-          &lt;input
-            :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }"
-            type="password"
-            id="password-input"
-            class="form-control"
-            v-bind="field"
-          /&gt;
-          &lt;ErrorMessage name="confirmPassword" class="invalid-feedback" /&gt;
-        &lt;/div&gt;
-      &lt;/Field&gt;
-      &lt;Field name="birthYear" :label="'birth year'" rules="required|min_value:1900|isOldEnough" v-slot="{ field, meta }"&gt;
-        &lt;div class="form-group"&gt;
-          &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="birthYear-input"&gt;Birth Year&lt;/label&gt;
-          &lt;input
-            :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }"
-            type="number"
-            id="birthYear-input"
-            class="form-control"
-            v-bind="field"
-          /&gt;
-          &lt;ErrorMessage name="birthYear" class="invalid-feedback" /&gt;
-        &lt;/div&gt;
-      &lt;/Field&gt;
-      &lt;button class="btn btn-primary" :class="{ disabled: !formMeta.valid }"&gt;Let's go!&lt;/button&gt;
-    &lt;/Form&gt;
-  &lt;/div&gt;
+  &lt;Alert :variant="danger" v-if="registrationFailed" class="mt-4" @dismissed="registrationFailed = false" dismissible
+    &gt;Try again with another login&lt;/Alert
+  &gt;
+  &lt;Form @submit="register($event)" v-slot="{ meta: formMeta }" :initialValues="initialValues"&gt;
+    &lt;Field name="login" rules="required|min:3" v-slot="{ field, meta }"&gt;
+      &lt;div class="form-group"&gt;
+        &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="login-input"&gt;Login&lt;/label&gt;
+        &lt;input :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }" id="login-input" class="form-control" v-bind="field" /&gt;
+        &lt;ErrorMessage name="login" class="invalid-feedback" /&gt;
+      &lt;/div&gt;
+    &lt;/Field&gt;
+    &lt;Field name="password" rules="required" v-slot="{ field, meta }"&gt;
+      &lt;div class="form-group"&gt;
+        &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="password-input"&gt;Password&lt;/label&gt;
+        &lt;input
+          :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }"
+          type="password"
+          id="password-input"
+          class="form-control"
+          v-bind="field"
+        /&gt;
+        &lt;ErrorMessage name="password" class="invalid-feedback" /&gt;
+      &lt;/div&gt;
+    &lt;/Field&gt;
+    &lt;Field name="confirmPassword" :label="'password confirmation'" rules="required|confirmed:@password" v-slot="{ field, meta }"&gt;
+      &lt;div class="form-group"&gt;
+        &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="confirmPassword-input"&gt;Password confirmation&lt;/label&gt;
+        &lt;input
+          :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }"
+          type="password"
+          id="password-input"
+          class="form-control"
+          v-bind="field"
+        /&gt;
+        &lt;ErrorMessage name="confirmPassword" class="invalid-feedback" /&gt;
+      &lt;/div&gt;
+    &lt;/Field&gt;
+    &lt;Field name="birthYear" :label="'birth year'" rules="required|min_value:1900|isOldEnough" v-slot="{ field, meta }"&gt;
+      &lt;div class="form-group"&gt;
+        &lt;label :class="{ 'text-danger': meta.dirty &amp;&amp; !meta.valid }" for="birthYear-input"&gt;Birth Year&lt;/label&gt;
+        &lt;input
+          :class="{ 'is-invalid': meta.dirty &amp;&amp; !meta.valid }"
+          type="number"
+          id="birthYear-input"
+          class="form-control"
+          v-bind="field"
+        /&gt;
+        &lt;ErrorMessage name="birthYear" class="invalid-feedback" /&gt;
+      &lt;/div&gt;
+    &lt;/Field&gt;
+    &lt;button class="btn btn-primary" :class="{ disabled: !formMeta.valid }"&gt;Let's go!&lt;/button&gt;
+  &lt;/Form&gt;
 &lt;/template&gt;
 &nbsp;
 &lt;script lang="ts"&gt;
@@ -357,7 +351,7 @@ export default defineComponent({
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Mar 01 2021 14:55:44 GMT+0100 (West Africa Standard Time)
+                at Mon Mar 01 2021 23:56:15 GMT+0100 (West Africa Standard Time)
             </div>
         </div>
         <script src="..\..\prettify.js"></script>
